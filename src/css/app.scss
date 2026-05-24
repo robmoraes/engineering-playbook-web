@@ -584,6 +584,22 @@ a {
   color: var(--muted);
 }
 
+.footer-product {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+}
+
+.app-version {
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+}
+
 .footer-content a:hover {
   color: var(--teal);
 }
@@ -623,6 +639,10 @@ a {
   .footer-content a {
     display: block;
     margin-top: 5px;
+  }
+
+  .footer-product {
+    display: inline-flex;
   }
 }
 

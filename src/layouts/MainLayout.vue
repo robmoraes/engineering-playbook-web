@@ -56,7 +56,10 @@
 
     <q-footer class="site-footer">
       <div class="footer-content">
-        <span>Engineering Playbook by Carlos R Moraes Rodrigues</span>
+        <span class="footer-product">
+          Engineering Playbook by Carlos R Moraes Rodrigues
+          <small class="app-version">v{{ version }}</small>
+        </span>
         <a
           href="https://about.carlosmoraesrodrigues.dev.br"
           target="_blank"
@@ -72,6 +75,7 @@
 <script setup>
 import { ref } from 'vue'
 import { books, pageRoute } from 'src/content/content-repository'
+import { version } from '../../package.json'
 
 const drawerOpen = ref(false)
 
