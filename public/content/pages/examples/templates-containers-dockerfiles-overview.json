@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/containers/dockerfiles/README.md",
+  "contentHtml": "<p>Future production-oriented Dockerfile and multi-stage build templates. Each\naddition must document build targets, runtime user, secret handling, image\nvalidation and intended workload type.</p>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/snippets/observability/README.md",
+  "contentHtml": "<p>Small log, metric, alert and dashboard-query fragments that demonstrate a\nsingle observability rule, such as bounded labels or correlation identifiers.</p>\n<p>Added snippets must identify cardinality and sensitive-data implications and\nreference <a href=\"/books/observability/pages/overview\">Observability Standards</a>.</p>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/snippets/delivery/README.md",
+  "contentHtml": "<p>Small CI/CD fragments such as immutable image tagging, a deployment health\nverification step or a constrained GitHub Actions permission block.</p>\n<p>These fragments explain one delivery control. Copyable workflow baselines\nbelong in <a href=\"/books/examples/pages/templates-delivery-overview\">Delivery Templates</a>.</p>\n"
+}

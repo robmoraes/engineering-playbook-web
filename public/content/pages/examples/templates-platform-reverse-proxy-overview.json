@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/platform/reverse-proxy/README.md",
+  "contentHtml": "<p>Future generic ingress templates demonstrating routing, TLS ownership,\nbackend isolation, health visibility and operational failure boundaries.</p>\n"
+}

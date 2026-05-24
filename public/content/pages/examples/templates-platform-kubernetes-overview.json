@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/platform/kubernetes/README.md",
+  "contentHtml": "<p>Reserved for future Kubernetes manifests when an operated platform use case\njustifies them. Manifests must state resource, security, storage and rollout\nassumptions.</p>\n"
+}

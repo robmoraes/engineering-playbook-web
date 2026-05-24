@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/snippets/operations/README.md",
+  "contentHtml": "<p>Read-only operational command or query fragments used to explain a diagnostic\nstep without defining a full recovery procedure.</p>\n<p>Commands that mutate production, roll back delivery, restore data or rotate\ncredentials belong in a documented scenario under\n<a href=\"/books/examples/pages/operational-scenarios-overview\">Operational Scenarios</a> with required access,\nrisk and verification.</p>\n"
+}

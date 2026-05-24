@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/reference-implementations/local-lab/README.md",
+  "contentHtml": "<p>Integrated local examples for learning or validating a pattern without\nproduction authority or production data.</p>\n<p>Future additions may combine Compose, safe local configuration, basic\ntelemetry and troubleshooting exercises. Each example must identify which\nassumptions would change before deployment outside a lab.</p>\n"
+}

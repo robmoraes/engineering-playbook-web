@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/observability/prometheus/README.md",
+  "contentHtml": "<p>Future scrape, recording rule and alert rule templates with explicit metric\nidentity, bounded labels, cardinality and operational validation.</p>\n"
+}

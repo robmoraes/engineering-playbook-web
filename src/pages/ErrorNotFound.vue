@@ -1,19 +1,8 @@
 <template>
-  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
-    <div>
-      <div style="font-size: 30vh">404</div>
-
-      <div class="text-h2" style="opacity: 0.4">Oops. Nothing here...</div>
-
-      <q-btn
-        class="q-mt-xl"
-        color="white"
-        text-color="blue"
-        unelevated
-        to="/"
-        label="Go Home"
-        no-caps
-      />
-    </div>
+  <div class="not-found">
+    <p class="eyebrow">404</p>
+    <h1>Page not found</h1>
+    <p>The requested document is not part of this generated playbook snapshot.</p>
+    <q-btn unelevated no-caps color="primary" to="/" label="Return home" />
   </div>
 </template>

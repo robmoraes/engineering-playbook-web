@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/operational-scenarios/data-and-recovery/README.md",
+  "contentHtml": "<p>Future operational examples for database connectivity, persistent storage\npressure, backup validation and controlled restore exercises.</p>\n<p>No example may contain real backup material or imply that destructive restore\nsteps are safe without a known dataset, recovery point and authority boundary.</p>\n"
+}

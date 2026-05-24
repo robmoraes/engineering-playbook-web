@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/operational-scenarios/runtime-and-platform/README.md",
+  "contentHtml": "<p>Future troubleshooting exercises for container startup failure, task/Pod\nhealth, Docker Swarm scheduling or manager issues, capacity exhaustion and\nshared platform dependency failure.</p>\n<p>Each scenario must distinguish a read-only diagnosis from an action requiring\nruntime or cluster authority.</p>\n"
+}

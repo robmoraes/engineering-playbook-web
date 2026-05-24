@@ -1,16 +1,19 @@
 {
   "name": "engineering-playbook-web",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Web SPA for the Engineering Playbook",
   "productName": "Engineering Playbook Web",
-  "author": "carlos.rodrigues <carlos.rodrigues@seventh.com.br>",
+  "author": "Carlos R Moraes Rodrigues",
   "type": "module",
   "private": true,
+  "packageManager": "yarn@1.22.22",
   "scripts": {
-    "lint": "eslint -c ./eslint.config.js \"./src*/**/*.{js,cjs,mjs,vue}\"",
-    "format": "prettier --write \"**/*.{js,vue,css,scss,html,md,json}\" --ignore-path .gitignore",
+    "lint": "eslint -c ./eslint.config.js \"./src*/**/*.{js,cjs,mjs,vue}\" \"./scripts/**/*.mjs\"",
+    "format": "prettier --write \"**/*.{js,mjs,vue,css,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
+    "content:sync": "node scripts/sync-content.mjs",
     "dev": "quasar dev",
+    "prebuild": "node scripts/sync-content.mjs",
     "build": "quasar build",
     "postinstall": "quasar prepare"
   },
@@ -22,21 +25,23 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
+    "@quasar/app-vite": "^2.5.1",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "autoprefixer": "^10.4.27",
     "eslint": "^9.39.4",
     "eslint-plugin-vue": "^10.8.0",
     "globals": "^17.4.0",
-    "vite-plugin-checker": "^0.12.0",
-    "vue-eslint-parser": "^10.4.0",
-    "@vue/eslint-config-prettier": "^10.2.0",
+    "marked": "^18.0.4",
+    "postcss": "^8.5.8",
     "prettier": "^3.8.1",
-    "@quasar/app-vite": "^2.5.1",
-    "autoprefixer": "^10.4.27",
-    "postcss": "^8.5.8"
+    "sanitize-html": "^2.17.4",
+    "tar": "^7.5.15",
+    "vite-plugin-checker": "^0.12.0",
+    "vue-eslint-parser": "^10.4.0"
   },
   "engines": {
     "node": "^28 || ^26 || ^24 || ^22.12",
     "npm": ">= 6.13.4",
-    "yarn": ">= 1.21.1",
-    "pnpm": ">= 10.0.0"
+    "yarn": ">= 1.21.1"
   }
 }

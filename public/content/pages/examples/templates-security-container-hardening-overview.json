@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/security/container-hardening/README.md",
+  "contentHtml": "<p>Future runtime hardening examples covering non-root execution, restricted\npermissions, image trust and operational diagnostic tradeoffs.</p>\n"
+}

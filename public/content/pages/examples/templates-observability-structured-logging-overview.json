@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/observability/structured-logging/README.md",
+  "contentHtml": "<p>Future application and pipeline log examples defining diagnostic event fields,\ncorrelation identifiers, redaction and backend mapping.</p>\n"
+}

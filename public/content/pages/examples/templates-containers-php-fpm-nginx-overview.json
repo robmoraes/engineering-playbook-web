@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/containers/php-fpm-nginx/README.md",
+  "contentHtml": "<p>Future app/web split templates showing independent PHP-FPM runtime and NGINX\ndelivery concerns, network paths, health behavior and image ownership.</p>\n"
+}

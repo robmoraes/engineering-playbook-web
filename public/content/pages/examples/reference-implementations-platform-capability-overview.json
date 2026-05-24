@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/reference-implementations/platform-capability/README.md",
+  "contentHtml": "<p>Integrated examples for a shared operational capability such as ingress,\nobservability or an artifact-delivery path.</p>\n<p>Because shared services increase blast radius, each future implementation must\nidentify consumers, upgrade/recovery path, operational ownership and failure\nimplications before executable assets are introduced.</p>\n"
+}
