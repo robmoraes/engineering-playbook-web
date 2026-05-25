@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-05-25
+
+### Added
+
+- Add modal search over the generated static documentation snapshot.
+
 ### Changed
 
 - Pin the build-time documentation source through `content-source.json` and
@@ -27,5 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Trunk-based development workflow.
 - Static content generation strategy.
 
-[Unreleased]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/robmoraes/engineering-playbook-web/releases/tag/v0.1.0
