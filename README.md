@@ -52,6 +52,12 @@ The lightweight manifest is bundled for navigation metadata. Rendered document
 JSON is requested only from the application's own static assets when a reader
 opens a page; it is never fetched from GitHub by the browser.
 
+Search follows the same static-delivery boundary. The build generates a
+plain-text search index from the source Markdown, and the browser requests that
+single index only after the search dialog is opened. Queries are evaluated
+locally against titles, descriptions and document text with case-insensitive
+and accent-insensitive matching.
+
 ## Application Structure
 
 ```text
@@ -60,6 +66,8 @@ scripts/sync-content.mjs       GitHub snapshot import and Markdown generation
 content-source.json             reviewed documentation source revision
 src/content/generated/         generated navigation manifest
 public/content/pages/          generated static document payloads
+public/content/search-index.json generated on-demand search index
+src/components/                reader interaction components
 src/layouts/                   header, navigation and footer shell
 src/pages/                     home, document reader and not-found screens
 src/router/                    SPA routes
@@ -73,6 +81,7 @@ The first UI version supplies:
 
 - a portfolio-oriented landing page;
 - ordered content navigation grouped by books;
+- modal search over the generated static document snapshot;
 - static document rendering at `/books/:bookSlug/pages/:pageSlug`;
 - previous and next document navigation derived from source indexes;
 - a not-found screen;

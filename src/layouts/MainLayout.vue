@@ -21,6 +21,16 @@
         </router-link>
 
         <q-space />
+        <button
+          class="search-trigger"
+          type="button"
+          aria-label="Search playbook content (Control K)"
+          @click="searchOpen = true"
+        >
+          <q-icon name="search" />
+          <span>Search</span>
+          <kbd>Ctrl K</kbd>
+        </button>
         <q-badge class="build-badge" label="Static SPA" />
       </q-toolbar>
     </q-header>
@@ -54,6 +64,8 @@
       <router-view />
     </q-page-container>
 
+    <ContentSearchDialog v-model="searchOpen" />
+
     <q-footer class="site-footer">
       <div class="footer-content">
         <span class="footer-product">
@@ -73,13 +85,25 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onBeforeUnmount, onMounted, ref } from 'vue'
+import ContentSearchDialog from 'src/components/ContentSearchDialog.vue'
 import { books, pageRoute } from 'src/content/content-repository'
 import { version } from '../../package.json'
 
 const drawerOpen = ref(false)
+const searchOpen = ref(false)
 
 function toggleDrawer() {
   drawerOpen.value = !drawerOpen.value
 }
+
+function openSearchWithKeyboard(event) {
+  if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
+    event.preventDefault()
+    searchOpen.value = true
+  }
+}
+
+onMounted(() => window.addEventListener('keydown', openSearchWithKeyboard))
+onBeforeUnmount(() => window.removeEventListener('keydown', openSearchWithKeyboard))
 </script>
