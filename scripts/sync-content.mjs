@@ -7,14 +7,15 @@ import { extract } from 'tar'
 
 const outputFile = resolve('src/content/generated/manifest.json')
 const outputPagesDirectory = resolve('public/content/pages')
+const configuredSource = JSON.parse(await readFile(resolve('content-source.json'), 'utf8'))
 const repositoryUrl = (
-  process.env.CONTENT_REPOSITORY_URL || 'https://github.com/robmoraes/engineering-playbook'
+  process.env.CONTENT_REPOSITORY_URL || configuredSource.repositoryUrl
 ).replace(/\.git$/, '')
-const repositoryRef = process.env.CONTENT_REPOSITORY_REF || 'main'
+const repositoryRef = process.env.CONTENT_REPOSITORY_REF || configuredSource.ref
 const localSourceDirectory = process.env.CONTENT_SOURCE_DIR
 const repositoryArchiveUrl =
   process.env.CONTENT_ARCHIVE_URL ||
-  `${repositoryUrl}/archive/refs/heads/${encodeURIComponent(repositoryRef)}.tar.gz`
+  `${repositoryUrl}/archive/${encodeURIComponent(repositoryRef)}.tar.gz`
 
 const allowedHtml = {
   allowedTags: [

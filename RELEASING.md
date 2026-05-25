@@ -18,6 +18,11 @@ Do not create a release tag that does not match the version already committed
 to `package.json`. The GitHub Actions workflow validates this rule before
 publishing a versioned image.
 
+`content-source.json` is the source of truth for the documentation edition
+embedded in the static application. Release candidates MUST configure an
+immutable `engineering-playbook` tag or full commit SHA rather than a moving
+branch.
+
 ## Development Flow
 
 The repository follows trunk-based development:
@@ -27,8 +32,8 @@ The repository follows trunk-based development:
 3. Let GitHub Actions build the Docker image for validation.
 4. Merge accepted changes into `main`.
 
-A pull request never publishes an image. A successful push to `main` publishes
-A successful push to main publishes the current trunk state with:
+A pull request never publishes an image. A successful push to `main` builds
+and publishes the current trunk candidate once with:
 
 ```text
 carlosmoraesrodrigues/engineering-playbook-web:latest
@@ -36,7 +41,8 @@ carlosmoraesrodrigues/engineering-playbook-web:sha-<commit-sha>
 ```
 
 `latest` identifies the current integrated state. The `sha-*` tag is immutable
-and allows a container image to be traced back to an exact commit.
+and allows a container image to be traced back to an exact web commit and
+pinned documentation source.
 
 ## Preparing a Release
 
@@ -44,11 +50,17 @@ When the integrated application is ready for a versioned release:
 
 1. Choose the next semantic version.
 2. Update `version` in `package.json`.
-3. Move relevant notes from `[Unreleased]` into a versioned section in
+3. Update `content-source.json` to the immutable documentation edition to
+   publish, when the content snapshot changes.
+4. Move relevant notes from `[Unreleased]` into a versioned section in
    `CHANGELOG.md`, including the release date.
-4. Submit and merge those changes to `main`.
-5. Create a Git tag matching the committed package version.
-6. Push the Git tag to GitHub.
+5. Submit and merge those changes to `main`; the workflow publishes the
+   SHA-identified candidate digest.
+6. Record that candidate digest and verify the expected content ref.
+7. Create a Git tag matching the committed package version from the same
+   merged commit.
+8. Push the Git tag to GitHub; the workflow promotes the existing candidate
+   digest under the version tag.
 
 ### Updating the Package Version
 
@@ -113,11 +125,11 @@ The expected output for tag `v0.1.0` is `0.1.0`.
 The workflow in `.github/workflows/docker-image.yml` handles container builds
 and publication.
 
-| GitHub event                              | Docker behavior                    | Published tags               |
-| ----------------------------------------- | ---------------------------------- | ---------------------------- |
-| Pull request targeting `main`             | Build validation only              | None                         |
-| Push to `main`                            | Build and publish integrated state | `latest`, `sha-<commit-sha>` |
-| Push of matching tag `v<package-version>` | Build and publish release          | `v<package-version>`         |
+| GitHub event                              | Docker behavior                       | Published tags               |
+| ----------------------------------------- | ------------------------------------- | ---------------------------- |
+| Pull request targeting `main`             | Build validation only                 | None                         |
+| Push to `main`                            | Build/publish release candidate once  | `latest`, `sha-<commit-sha>` |
+| Push of matching tag `v<package-version>` | Promote existing SHA candidate digest | `v<package-version>`         |
 
 For example, pushing `v0.1.0` while `package.json` declares `0.1.0` publishes:
 
@@ -125,8 +137,29 @@ For example, pushing `v0.1.0` while `package.json` declares `0.1.0` publishes:
 carlosmoraesrodrigues/engineering-playbook-web:v0.1.0
 ```
 
-If the pushed Git tag and `package.json` version differ, the workflow fails
-before publishing the versioned image.
+If the pushed Git tag and `package.json` version differ, or if its
+`sha-<commit-sha>` candidate cannot be found, the workflow fails without
+building a replacement image. The resulting version tag must resolve to the
+same digest as that candidate.
+
+## Release Evidence
+
+Record the artifact identity after a version promotion:
+
+```text
+web version:         v0.2.0
+web source commit:   <full commit SHA>
+content repository:  robmoraes/engineering-playbook
+content source ref:  <immutable tag or full commit SHA>
+candidate tag:       sha-<web source SHA>
+image digest:        sha256:<digest>
+release tag:         v0.2.0 -> sha256:<same digest>
+workflow run:        <GitHub Actions run URL>
+```
+
+The workflow job summary supplies the candidate and promoted digest data. The
+release record preserves the complete relationship between web source,
+documentation source and public container artifact.
 
 ## Image Metadata
 
@@ -136,9 +169,11 @@ Published images include OCI labels generated during the GitHub Actions build:
 - `org.opencontainers.image.description`;
 - `org.opencontainers.image.source`;
 - `org.opencontainers.image.version`.
+- `dev.carlosmoraesrodrigues.engineering-playbook.content.ref`.
 
-The version label is derived from `package.json`, keeping the artifact metadata
-consistent with the release record.
+The version label is derived from `package.json`, and the content label is
+derived from `content-source.json`, keeping artifact metadata consistent with
+the release record.
 
 ## Required Repository Secrets
 
