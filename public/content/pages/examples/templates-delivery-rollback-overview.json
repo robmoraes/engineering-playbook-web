@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/delivery/rollback/README.md",
+  "contentHtml": "<p>Future rollback workflow examples that define compatible recovery boundaries,\nprior artifact selection, validation and escalation when rollback is unsafe.</p>\n"
+}

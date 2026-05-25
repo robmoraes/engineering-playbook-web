@@ -37,7 +37,7 @@ export default defineConfig((/* ctx */) => {
         node: 'node22',
       },
 
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // NGINX serves index.html as the SPA fallback.
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/observability/grafana/README.md",
+  "contentHtml": "<p>Future provisioned dashboard and data-source templates designed for\nsymptom-to-cause investigation, release correlation and safe sharing.</p>\n"
+}

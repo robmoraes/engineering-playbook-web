@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/platform/traefik/README.md",
+  "contentHtml": "<p>Future Traefik-specific edge templates for configured routes, certificate\nhandling, observability and safe application attachment.</p>\n"
+}

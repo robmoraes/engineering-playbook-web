@@ -1,0 +1,3670 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "engineering-playbook",
+  "sourceRepositoryUrl": "https://github.com/robmoraes/engineering-playbook",
+  "sourceRef": "main",
+  "sourceMode": "github-archive",
+  "description": "Standards, conventions and operational practices for my projects, labs and public portfolio.",
+  "books": [
+    {
+      "title": "Principles",
+      "slug": "principles",
+      "description": "Mission, user responsibility, ethics and long-term stewardship",
+      "sourcePath": "principles/README.md",
+      "navigation": [
+        {
+          "title": "Professional Principles",
+          "slug": "overview"
+        },
+        {
+          "title": "Mission",
+          "slug": "mission"
+        },
+        {
+          "title": "Users First",
+          "slug": "users-first"
+        },
+        {
+          "title": "Engineering Ethics",
+          "slug": "engineering-ethics"
+        },
+        {
+          "title": "Craftsmanship Without Ego",
+          "slug": "craftsmanship"
+        },
+        {
+          "title": "Pragmatism Without Negligence",
+          "slug": "pragmatism"
+        },
+        {
+          "title": "Long-Term Responsibility",
+          "slug": "long-term-responsibility"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "principles",
+          "pages": [
+            {
+              "title": "Professional Principles",
+              "slug": "overview",
+              "description": "Software engineering is valuable when it helps a person do something with less friction, less uncertainty or less risk. A system may be commissioned by an organization and shaped by commercial constraints, but its quality is eventually experienced by the person who has to use it, trust it or recover from its failure.",
+              "sourcePath": "principles/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/principles/README.md",
+              "contentPath": "/content/pages/principles/overview.json",
+              "nextPage": {
+                "title": "Mission",
+                "route": "/books/principles/pages/mission"
+              }
+            },
+            {
+              "title": "Mission",
+              "slug": "mission",
+              "description": "What is most gratifying to me in this work is knowing that someone is using something I made with my intelligence and my hands; that it makes a task easier or allows the person to complete it more efficiently.",
+              "sourcePath": "principles/mission.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/principles/mission.md",
+              "contentPath": "/content/pages/principles/mission.json",
+              "previousPage": {
+                "title": "Professional Principles",
+                "route": "/books/principles/pages/overview"
+              },
+              "nextPage": {
+                "title": "Users First",
+                "route": "/books/principles/pages/users-first"
+              }
+            },
+            {
+              "title": "Users First",
+              "slug": "users-first",
+              "description": "A user does not normally want a database, a deployment or a form. The user wants to find a book, submit a request, understand a result, complete a job or recover from a problem. Engineering starts by understanding that goal well enough to reduce its friction without creating avoidable risk.",
+              "sourcePath": "principles/users-first.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/principles/users-first.md",
+              "contentPath": "/content/pages/principles/users-first.json",
+              "previousPage": {
+                "title": "Mission",
+                "route": "/books/principles/pages/mission"
+              },
+              "nextPage": {
+                "title": "Engineering Ethics",
+                "route": "/books/principles/pages/engineering-ethics"
+              }
+            },
+            {
+              "title": "Engineering Ethics",
+              "slug": "engineering-ethics",
+              "description": "Software can save time, reveal information, control access, record decisions and influence what people are able to do. Engineering ethics is therefore not an optional discussion after implementation. It is the discipline of noticing whose interests and risks are affected by a technical choice, then acting honestly and competently.",
+              "sourcePath": "principles/engineering-ethics.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/principles/engineering-ethics.md",
+              "contentPath": "/content/pages/principles/engineering-ethics.json",
+              "previousPage": {
+                "title": "Users First",
+                "route": "/books/principles/pages/users-first"
+              },
+              "nextPage": {
+                "title": "Craftsmanship Without Ego",
+                "route": "/books/principles/pages/craftsmanship"
+              }
+            },
+            {
+              "title": "Craftsmanship Without Ego",
+              "slug": "craftsmanship",
+              "description": "Craftsmanship in software is not devotion to elaborate code or personal style. It is care for correctness, clarity and changeability in proportion to the system's consequences. The work is successful when it serves users and can be responsibly maintained by people who did not write it.",
+              "sourcePath": "principles/craftsmanship.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/principles/craftsmanship.md",
+              "contentPath": "/content/pages/principles/craftsmanship.json",
+              "previousPage": {
+                "title": "Engineering Ethics",
+                "route": "/books/principles/pages/engineering-ethics"
+              },
+              "nextPage": {
+                "title": "Pragmatism Without Negligence",
+                "route": "/books/principles/pages/pragmatism"
+              }
+            },
+            {
+              "title": "Pragmatism Without Negligence",
+              "slug": "pragmatism",
+              "description": "Pragmatism means selecting an adequate solution for real constraints: user need, risk, time, cost, skills and operating capacity. It does not mean shipping whatever is fastest regardless of consequences.",
+              "sourcePath": "principles/pragmatism.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/principles/pragmatism.md",
+              "contentPath": "/content/pages/principles/pragmatism.json",
+              "previousPage": {
+                "title": "Craftsmanship Without Ego",
+                "route": "/books/principles/pages/craftsmanship"
+              },
+              "nextPage": {
+                "title": "Long-Term Responsibility",
+                "route": "/books/principles/pages/long-term-responsibility"
+              }
+            },
+            {
+              "title": "Long-Term Responsibility",
+              "slug": "long-term-responsibility",
+              "description": "When people depend on software, delivery is the beginning of responsibility, not its end. A deployed system needs ownership, observation, maintenance and an eventual path for replacement or retirement.",
+              "sourcePath": "principles/long-term-responsibility.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/principles/long-term-responsibility.md",
+              "contentPath": "/content/pages/principles/long-term-responsibility.json",
+              "previousPage": {
+                "title": "Pragmatism Without Negligence",
+                "route": "/books/principles/pages/pragmatism"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/principles/pages/references"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "This section begins with a personal mission: build software that creates a useful bridge between people and their everyday goals. The positions in these documents are this playbook's own. The external sources below provide professional and operational guidance that strengthens particular duties and practices; they are not presented as authors of the personal mission.",
+              "sourcePath": "principles/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/principles/references.md",
+              "contentPath": "/content/pages/principles/references.json",
+              "previousPage": {
+                "title": "Long-Term Responsibility",
+                "route": "/books/principles/pages/long-term-responsibility"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Architecture",
+      "slug": "architecture",
+      "description": "Technical rationale and decision records",
+      "sourcePath": "architecture/README.md",
+      "navigation": [
+        {
+          "title": "Architecture Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Principles and Tradeoffs",
+          "slug": "principles-and-tradeoffs"
+        },
+        {
+          "title": "Boundaries and Service Design",
+          "slug": "boundaries-and-service-design"
+        },
+        {
+          "title": "Runtime and Platform Topology",
+          "slug": "runtime-and-platform-topology"
+        },
+        {
+          "title": "State, Reliability and Scale",
+          "slug": "state-reliability-and-scale"
+        },
+        {
+          "title": "Delivery and Evolution",
+          "slug": "delivery-and-evolution"
+        },
+        {
+          "title": "Architecture Decision Records",
+          "slug": "decision-records-overview"
+        },
+        {
+          "title": "ADR-NNNN: Decision Title",
+          "slug": "decision-records-template"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "architecture",
+          "pages": [
+            {
+              "title": "Architecture Standards",
+              "slug": "overview",
+              "description": "Architecture guidance for building systems that can be deployed, operated, changed and understood over time. This section documents decision logic and operational consequences, not target-state diagrams detached from delivery.",
+              "sourcePath": "architecture/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/README.md",
+              "contentPath": "/content/pages/architecture/overview.json",
+              "nextPage": {
+                "title": "Principles and Tradeoffs",
+                "route": "/books/architecture/pages/principles-and-tradeoffs"
+              }
+            },
+            {
+              "title": "Principles and Tradeoffs",
+              "slug": "principles-and-tradeoffs",
+              "description": "This playbook treats architecture as the set of decisions that constrain how a system changes and operates. The aim is not an idealized platform; it is a system whose complexity is justified by real requirements.",
+              "sourcePath": "architecture/principles-and-tradeoffs.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/principles-and-tradeoffs.md",
+              "contentPath": "/content/pages/architecture/principles-and-tradeoffs.json",
+              "previousPage": {
+                "title": "Architecture Standards",
+                "route": "/books/architecture/pages/overview"
+              },
+              "nextPage": {
+                "title": "Boundaries and Service Design",
+                "route": "/books/architecture/pages/boundaries-and-service-design"
+              }
+            },
+            {
+              "title": "Boundaries and Service Design",
+              "slug": "boundaries-and-service-design",
+              "description": "System boundaries define ownership of behavior, data, change and failure. Deployable services should follow boundaries that are already understood, not serve as an expensive experiment for finding them.",
+              "sourcePath": "architecture/boundaries-and-service-design.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/boundaries-and-service-design.md",
+              "contentPath": "/content/pages/architecture/boundaries-and-service-design.json",
+              "previousPage": {
+                "title": "Principles and Tradeoffs",
+                "route": "/books/architecture/pages/principles-and-tradeoffs"
+              },
+              "nextPage": {
+                "title": "Runtime and Platform Topology",
+                "route": "/books/architecture/pages/runtime-and-platform-topology"
+              }
+            },
+            {
+              "title": "Runtime and Platform Topology",
+              "slug": "runtime-and-platform-topology",
+              "description": "Runtime architecture connects software boundaries to deployable units, networks, ingress, secrets, storage and operator responsibilities.",
+              "sourcePath": "architecture/runtime-and-platform-topology.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/runtime-and-platform-topology.md",
+              "contentPath": "/content/pages/architecture/runtime-and-platform-topology.json",
+              "previousPage": {
+                "title": "Boundaries and Service Design",
+                "route": "/books/architecture/pages/boundaries-and-service-design"
+              },
+              "nextPage": {
+                "title": "State, Reliability and Scale",
+                "route": "/books/architecture/pages/state-reliability-and-scale"
+              }
+            },
+            {
+              "title": "State, Reliability and Scale",
+              "slug": "state-reliability-and-scale",
+              "description": "The most consequential architecture choices usually involve data and failure. Stateless application replicas are easy to recreate; durable state and cross-service correctness are not.",
+              "sourcePath": "architecture/state-reliability-and-scale.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/state-reliability-and-scale.md",
+              "contentPath": "/content/pages/architecture/state-reliability-and-scale.json",
+              "previousPage": {
+                "title": "Runtime and Platform Topology",
+                "route": "/books/architecture/pages/runtime-and-platform-topology"
+              },
+              "nextPage": {
+                "title": "Delivery and Evolution",
+                "route": "/books/architecture/pages/delivery-and-evolution"
+              }
+            },
+            {
+              "title": "Delivery and Evolution",
+              "slug": "delivery-and-evolution",
+              "description": "Architecture must survive change. A topology that works only when deployed by hand or understood by its original author is not a durable production design.",
+              "sourcePath": "architecture/delivery-and-evolution.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/delivery-and-evolution.md",
+              "contentPath": "/content/pages/architecture/delivery-and-evolution.json",
+              "previousPage": {
+                "title": "State, Reliability and Scale",
+                "route": "/books/architecture/pages/state-reliability-and-scale"
+              },
+              "nextPage": {
+                "title": "Architecture Decision Records",
+                "route": "/books/architecture/pages/decision-records-overview"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "This architecture standard uses external guidance as input, then adapts it to small and production-oriented platform contexts. The choice to prefer modular deployment boundaries, require operational consequences in ADRs and introduce complexity only after a demonstrated need is this playbook's convention, not a requirement imposed by the external sources.",
+              "sourcePath": "architecture/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/references.md",
+              "contentPath": "/content/pages/architecture/references.json",
+              "previousPage": {
+                "title": "ADR-NNNN: Decision Title",
+                "route": "/books/architecture/pages/decision-records-template"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Decision Records",
+          "slug": "decision-records",
+          "description": "Decision Records documents",
+          "sourcePath": "architecture/decision-records",
+          "pages": [
+            {
+              "title": "Architecture Decision Records",
+              "slug": "decision-records-overview",
+              "description": "Architecture Decision Records (ADRs) preserve context for choices that affect system boundaries, operations, reliability, security, cost or delivery. They are intentionally short enough to maintain alongside code and infrastructure.",
+              "sourcePath": "architecture/decision-records/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/decision-records/README.md",
+              "contentPath": "/content/pages/architecture/decision-records-overview.json",
+              "previousPage": {
+                "title": "Delivery and Evolution",
+                "route": "/books/architecture/pages/delivery-and-evolution"
+              },
+              "nextPage": {
+                "title": "ADR-NNNN: Decision Title",
+                "route": "/books/architecture/pages/decision-records-template"
+              }
+            },
+            {
+              "title": "ADR-NNNN: Decision Title",
+              "slug": "decision-records-template",
+              "description": "Describe the requirement, constraint or problem that makes this decision necessary. Include current operating conditions, known scale, reliability, security or cost needs. Avoid describing a solution before the problem.",
+              "sourcePath": "architecture/decision-records/template.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/architecture/decision-records/template.md",
+              "contentPath": "/content/pages/architecture/decision-records-template.json",
+              "previousPage": {
+                "title": "Architecture Decision Records",
+                "route": "/books/architecture/pages/decision-records-overview"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/architecture/pages/references"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "CI/CD",
+      "slug": "ci-cd",
+      "description": "Integration, releases and deployment pipelines",
+      "sourcePath": "ci-cd/README.md",
+      "navigation": [
+        {
+          "title": "CI/CD Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Pipeline Principles",
+          "slug": "pipeline-principles"
+        },
+        {
+          "title": "GitHub Actions Workflows",
+          "slug": "github-actions-workflows"
+        },
+        {
+          "title": "Build and Artifacts",
+          "slug": "build-and-artifacts"
+        },
+        {
+          "title": "Releases and Versioning",
+          "slug": "releases-and-versioning"
+        },
+        {
+          "title": "Deployments and Promotion",
+          "slug": "deployments-and-promotion"
+        },
+        {
+          "title": "Pipeline Operations",
+          "slug": "pipeline-operations"
+        },
+        {
+          "title": "CI/CD Delivery Checklist",
+          "slug": "delivery-checklist"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "ci-cd",
+          "pages": [
+            {
+              "title": "CI/CD Standards",
+              "slug": "overview",
+              "description": "Standards for building, validating, publishing and deploying software through repeatable automation with controlled production risk.",
+              "sourcePath": "ci-cd/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/README.md",
+              "contentPath": "/content/pages/ci-cd/overview.json",
+              "nextPage": {
+                "title": "Pipeline Principles",
+                "route": "/books/ci-cd/pages/pipeline-principles"
+              }
+            },
+            {
+              "title": "Pipeline Principles",
+              "slug": "pipeline-principles",
+              "description": "CI/CD should reduce manual uncertainty without granting automation unlimited authority. A useful pipeline makes failures visible early, creates one traceable artifact and makes production change deliberate and reversible.",
+              "sourcePath": "ci-cd/pipeline-principles.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/pipeline-principles.md",
+              "contentPath": "/content/pages/ci-cd/pipeline-principles.json",
+              "previousPage": {
+                "title": "CI/CD Standards",
+                "route": "/books/ci-cd/pages/overview"
+              },
+              "nextPage": {
+                "title": "GitHub Actions Workflows",
+                "route": "/books/ci-cd/pages/github-actions-workflows"
+              }
+            },
+            {
+              "title": "GitHub Actions Workflows",
+              "slug": "github-actions-workflows",
+              "description": "GitHub Actions is the default workflow example in this playbook because it is practical for public repositories and portfolio projects. The principles still apply when another CI/CD system is used.",
+              "sourcePath": "ci-cd/github-actions-workflows.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/github-actions-workflows.md",
+              "contentPath": "/content/pages/ci-cd/github-actions-workflows.json",
+              "previousPage": {
+                "title": "Pipeline Principles",
+                "route": "/books/ci-cd/pages/pipeline-principles"
+              },
+              "nextPage": {
+                "title": "Build and Artifacts",
+                "route": "/books/ci-cd/pages/build-and-artifacts"
+              }
+            },
+            {
+              "title": "Build and Artifacts",
+              "slug": "build-and-artifacts",
+              "description": "Artifacts should be reproducible enough to investigate, immutable enough to promote and identifiable enough to roll back. Container images are the primary deployment artifact in this playbook.",
+              "sourcePath": "ci-cd/build-and-artifacts.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/build-and-artifacts.md",
+              "contentPath": "/content/pages/ci-cd/build-and-artifacts.json",
+              "previousPage": {
+                "title": "GitHub Actions Workflows",
+                "route": "/books/ci-cd/pages/github-actions-workflows"
+              },
+              "nextPage": {
+                "title": "Releases and Versioning",
+                "route": "/books/ci-cd/pages/releases-and-versioning"
+              }
+            },
+            {
+              "title": "Releases and Versioning",
+              "slug": "releases-and-versioning",
+              "description": "A release is a traceable decision to make a tested artifact available for use, not merely a Git tag or a generated changelog.",
+              "sourcePath": "ci-cd/releases-and-versioning.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/releases-and-versioning.md",
+              "contentPath": "/content/pages/ci-cd/releases-and-versioning.json",
+              "previousPage": {
+                "title": "Build and Artifacts",
+                "route": "/books/ci-cd/pages/build-and-artifacts"
+              },
+              "nextPage": {
+                "title": "Deployments and Promotion",
+                "route": "/books/ci-cd/pages/deployments-and-promotion"
+              }
+            },
+            {
+              "title": "Deployments and Promotion",
+              "slug": "deployments-and-promotion",
+              "description": "Deployment automation changes a running environment. Its standard is therefore higher than build automation: it must select a trusted artifact, use scoped authority, verify result and support recovery.",
+              "sourcePath": "ci-cd/deployments-and-promotion.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/deployments-and-promotion.md",
+              "contentPath": "/content/pages/ci-cd/deployments-and-promotion.json",
+              "previousPage": {
+                "title": "Releases and Versioning",
+                "route": "/books/ci-cd/pages/releases-and-versioning"
+              },
+              "nextPage": {
+                "title": "Pipeline Operations",
+                "route": "/books/ci-cd/pages/pipeline-operations"
+              }
+            },
+            {
+              "title": "Pipeline Operations",
+              "slug": "pipeline-operations",
+              "description": "Delivery automation needs its own operations model: failures, duration, resource consumption and dependency trust affect engineering throughput and production risk.",
+              "sourcePath": "ci-cd/pipeline-operations.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/pipeline-operations.md",
+              "contentPath": "/content/pages/ci-cd/pipeline-operations.json",
+              "previousPage": {
+                "title": "Deployments and Promotion",
+                "route": "/books/ci-cd/pages/deployments-and-promotion"
+              },
+              "nextPage": {
+                "title": "CI/CD Delivery Checklist",
+                "route": "/books/ci-cd/pages/delivery-checklist"
+              }
+            },
+            {
+              "title": "CI/CD Delivery Checklist",
+              "slug": "delivery-checklist",
+              "description": "Use this checklist when introducing delivery automation, releasing an image or changing a production deployment path.",
+              "sourcePath": "ci-cd/delivery-checklist.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/delivery-checklist.md",
+              "contentPath": "/content/pages/ci-cd/delivery-checklist.json",
+              "previousPage": {
+                "title": "Pipeline Operations",
+                "route": "/books/ci-cd/pages/pipeline-operations"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/ci-cd/pages/references"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "The sources below describe platform capabilities or established delivery practices. This playbook converts them into an opinionated but proportional standard: build once, publish an immutable artifact, promote with environment isolation, verify deployments and add governance only where project impact requires it.",
+              "sourcePath": "ci-cd/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/ci-cd/references.md",
+              "contentPath": "/content/pages/ci-cd/references.json",
+              "previousPage": {
+                "title": "CI/CD Delivery Checklist",
+                "route": "/books/ci-cd/pages/delivery-checklist"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Docker",
+      "slug": "docker",
+      "description": "Container builds, images and runtime conventions",
+      "sourcePath": "docker/README.md",
+      "navigation": [
+        {
+          "title": "Docker Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Container Principles",
+          "slug": "container-principles"
+        },
+        {
+          "title": "Dockerfiles and Builds",
+          "slug": "dockerfiles-and-builds"
+        },
+        {
+          "title": "Images and Registries",
+          "slug": "images-and-registries"
+        },
+        {
+          "title": "Runtime and Process Model",
+          "slug": "runtime-and-process-model"
+        },
+        {
+          "title": "Networking and Storage",
+          "slug": "networking-and-storage"
+        },
+        {
+          "title": "Compose and Local Development",
+          "slug": "compose-and-development"
+        },
+        {
+          "title": "Orchestration and Production",
+          "slug": "orchestration-and-production"
+        },
+        {
+          "title": "Docker Operational Checklist",
+          "slug": "operational-checklist"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "docker",
+          "pages": [
+            {
+              "title": "Docker Standards",
+              "slug": "overview",
+              "description": "Production-oriented standards for building, publishing and operating containerized workloads consistently across local development, portfolio services and managed deployment platforms.",
+              "sourcePath": "docker/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/README.md",
+              "contentPath": "/content/pages/docker/overview.json",
+              "nextPage": {
+                "title": "Container Principles",
+                "route": "/books/docker/pages/container-principles"
+              }
+            },
+            {
+              "title": "Container Principles",
+              "slug": "container-principles",
+              "description": "Containers make an application portable only when their boundaries are clear: what is in the image, what is supplied at runtime, what is persisted and what must be operated outside the container.",
+              "sourcePath": "docker/container-principles.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/container-principles.md",
+              "contentPath": "/content/pages/docker/container-principles.json",
+              "previousPage": {
+                "title": "Docker Standards",
+                "route": "/books/docker/pages/overview"
+              },
+              "nextPage": {
+                "title": "Dockerfiles and Builds",
+                "route": "/books/docker/pages/dockerfiles-and-builds"
+              }
+            },
+            {
+              "title": "Dockerfiles and Builds",
+              "slug": "dockerfiles-and-builds",
+              "description": "A production Dockerfile should be predictable to review, efficient enough to build repeatedly and narrow enough that its runtime image contains only what the application needs to execute.",
+              "sourcePath": "docker/dockerfiles-and-builds.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/dockerfiles-and-builds.md",
+              "contentPath": "/content/pages/docker/dockerfiles-and-builds.json",
+              "previousPage": {
+                "title": "Container Principles",
+                "route": "/books/docker/pages/container-principles"
+              },
+              "nextPage": {
+                "title": "Images and Registries",
+                "route": "/books/docker/pages/images-and-registries"
+              }
+            },
+            {
+              "title": "Images and Registries",
+              "slug": "images-and-registries",
+              "description": "Container images are release artifacts. Registry layout, tags, provenance and retention affect deployment safety, rollback and supply-chain trust.",
+              "sourcePath": "docker/images-and-registries.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/images-and-registries.md",
+              "contentPath": "/content/pages/docker/images-and-registries.json",
+              "previousPage": {
+                "title": "Dockerfiles and Builds",
+                "route": "/books/docker/pages/dockerfiles-and-builds"
+              },
+              "nextPage": {
+                "title": "Runtime and Process Model",
+                "route": "/books/docker/pages/runtime-and-process-model"
+              }
+            },
+            {
+              "title": "Runtime and Process Model",
+              "slug": "runtime-and-process-model",
+              "description": "A runtime image must behave predictably during startup, health checking, termination, debugging and replacement. These properties matter more in production than squeezing the final few megabytes from an image.",
+              "sourcePath": "docker/runtime-and-process-model.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/runtime-and-process-model.md",
+              "contentPath": "/content/pages/docker/runtime-and-process-model.json",
+              "previousPage": {
+                "title": "Images and Registries",
+                "route": "/books/docker/pages/images-and-registries"
+              },
+              "nextPage": {
+                "title": "Networking and Storage",
+                "route": "/books/docker/pages/networking-and-storage"
+              }
+            },
+            {
+              "title": "Networking and Storage",
+              "slug": "networking-and-storage",
+              "description": "Networks and storage determine whether containerized workloads remain isolated, durable and recoverable. Container packaging does not make persistent data or reachability safe by default.",
+              "sourcePath": "docker/networking-and-storage.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/networking-and-storage.md",
+              "contentPath": "/content/pages/docker/networking-and-storage.json",
+              "previousPage": {
+                "title": "Runtime and Process Model",
+                "route": "/books/docker/pages/runtime-and-process-model"
+              },
+              "nextPage": {
+                "title": "Compose and Local Development",
+                "route": "/books/docker/pages/compose-and-development"
+              }
+            },
+            {
+              "title": "Compose and Local Development",
+              "slug": "compose-and-development",
+              "description": "Docker Compose is an effective way to express local multi-container dependencies and small deployments. Its value is consistency, not forcing production topology to be identical to a laptop.",
+              "sourcePath": "docker/compose-and-development.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/compose-and-development.md",
+              "contentPath": "/content/pages/docker/compose-and-development.json",
+              "previousPage": {
+                "title": "Networking and Storage",
+                "route": "/books/docker/pages/networking-and-storage"
+              },
+              "nextPage": {
+                "title": "Orchestration and Production",
+                "route": "/books/docker/pages/orchestration-and-production"
+              }
+            },
+            {
+              "title": "Orchestration and Production",
+              "slug": "orchestration-and-production",
+              "description": "Production container operation combines image discipline with scheduling, networking, secrets, state, rollout behavior and recovery. The orchestrator does not repair an image that lacks runtime clarity.",
+              "sourcePath": "docker/orchestration-and-production.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/orchestration-and-production.md",
+              "contentPath": "/content/pages/docker/orchestration-and-production.json",
+              "previousPage": {
+                "title": "Compose and Local Development",
+                "route": "/books/docker/pages/compose-and-development"
+              },
+              "nextPage": {
+                "title": "Docker Operational Checklist",
+                "route": "/books/docker/pages/operational-checklist"
+              }
+            },
+            {
+              "title": "Docker Operational Checklist",
+              "slug": "operational-checklist",
+              "description": "Use this checklist when adding a containerized service, publishing an image or reviewing a production deployment.",
+              "sourcePath": "docker/operational-checklist.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/operational-checklist.md",
+              "contentPath": "/content/pages/docker/operational-checklist.json",
+              "previousPage": {
+                "title": "Orchestration and Production",
+                "route": "/books/docker/pages/orchestration-and-production"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/docker/pages/references"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "These sources define Docker platform behavior or established operating guidance. This playbook adapts them to practical portfolio and production systems. Its decisions to prefer one runtime image per independently deployed capability, use digest-based production promotion and avoid unnecessary orchestration complexity are local conventions rather than requirements of Docker or Kubernetes.",
+              "sourcePath": "docker/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/docker/references.md",
+              "contentPath": "/content/pages/docker/references.json",
+              "previousPage": {
+                "title": "Docker Operational Checklist",
+                "route": "/books/docker/pages/operational-checklist"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Examples",
+      "slug": "examples",
+      "description": "Reusable reference implementations",
+      "sourcePath": "examples/README.md",
+      "navigation": [
+        {
+          "title": "Engineering Examples Catalog",
+          "slug": "overview"
+        },
+        {
+          "title": "Snippets",
+          "slug": "snippets-overview"
+        },
+        {
+          "title": "Container Snippets",
+          "slug": "snippets-containers-overview"
+        },
+        {
+          "title": "Delivery Snippets",
+          "slug": "snippets-delivery-overview"
+        },
+        {
+          "title": "Observability Snippets",
+          "slug": "snippets-observability-overview"
+        },
+        {
+          "title": "Operations Snippets",
+          "slug": "snippets-operations-overview"
+        },
+        {
+          "title": "Templates",
+          "slug": "templates-overview"
+        },
+        {
+          "title": "Container Templates",
+          "slug": "templates-containers-overview"
+        },
+        {
+          "title": "Dockerfile Templates",
+          "slug": "templates-containers-dockerfiles-overview"
+        },
+        {
+          "title": "PHP-FPM and NGINX Templates",
+          "slug": "templates-containers-php-fpm-nginx-overview"
+        },
+        {
+          "title": "Compose Templates",
+          "slug": "templates-containers-compose-overview"
+        },
+        {
+          "title": "Healthcheck Templates",
+          "slug": "templates-containers-healthchecks-overview"
+        },
+        {
+          "title": "Container Networking and Storage Templates",
+          "slug": "templates-containers-networking-and-storage-overview"
+        },
+        {
+          "title": "Delivery Templates",
+          "slug": "templates-delivery-overview"
+        },
+        {
+          "title": "GitHub Actions Templates",
+          "slug": "templates-delivery-github-actions-overview"
+        },
+        {
+          "title": "Image Publishing Templates",
+          "slug": "templates-delivery-image-publishing-overview"
+        },
+        {
+          "title": "Deployment Templates",
+          "slug": "templates-delivery-deployments-overview"
+        },
+        {
+          "title": "Rollback Templates",
+          "slug": "templates-delivery-rollback-overview"
+        },
+        {
+          "title": "Platform Templates",
+          "slug": "templates-platform-overview"
+        },
+        {
+          "title": "Docker Swarm Templates",
+          "slug": "templates-platform-swarm-overview"
+        },
+        {
+          "title": "Reverse Proxy Templates",
+          "slug": "templates-platform-reverse-proxy-overview"
+        },
+        {
+          "title": "Traefik Templates",
+          "slug": "templates-platform-traefik-overview"
+        },
+        {
+          "title": "Platform Networking and Storage Templates",
+          "slug": "templates-platform-networks-and-storage-overview"
+        },
+        {
+          "title": "Kubernetes Templates",
+          "slug": "templates-platform-kubernetes-overview"
+        },
+        {
+          "title": "Observability Templates",
+          "slug": "templates-observability-overview"
+        },
+        {
+          "title": "Prometheus Templates",
+          "slug": "templates-observability-prometheus-overview"
+        },
+        {
+          "title": "Loki Templates",
+          "slug": "templates-observability-loki-overview"
+        },
+        {
+          "title": "Grafana Templates",
+          "slug": "templates-observability-grafana-overview"
+        },
+        {
+          "title": "OpenTelemetry Templates",
+          "slug": "templates-observability-opentelemetry-overview"
+        },
+        {
+          "title": "Structured Logging Templates",
+          "slug": "templates-observability-structured-logging-overview"
+        },
+        {
+          "title": "SLO and Alerting Templates",
+          "slug": "templates-observability-slo-and-alerting-overview"
+        },
+        {
+          "title": "Security Templates",
+          "slug": "templates-security-overview"
+        },
+        {
+          "title": "Environment Configuration Templates",
+          "slug": "templates-security-environment-configuration-overview"
+        },
+        {
+          "title": "Secret Delivery Templates",
+          "slug": "templates-security-secret-delivery-overview"
+        },
+        {
+          "title": "Container Hardening Templates",
+          "slug": "templates-security-container-hardening-overview"
+        },
+        {
+          "title": "Infrastructure-as-Code Templates",
+          "slug": "templates-infrastructure-as-code-overview"
+        },
+        {
+          "title": "Infrastructure Module Templates",
+          "slug": "templates-infrastructure-as-code-modules-overview"
+        },
+        {
+          "title": "Infrastructure Environment Templates",
+          "slug": "templates-infrastructure-as-code-environments-overview"
+        },
+        {
+          "title": "Infrastructure Topology Templates",
+          "slug": "templates-infrastructure-as-code-topologies-overview"
+        },
+        {
+          "title": "Reference Implementations",
+          "slug": "reference-implementations-overview"
+        },
+        {
+          "title": "Local Lab Reference Implementations",
+          "slug": "reference-implementations-local-lab-overview"
+        },
+        {
+          "title": "Small Production Service Reference Implementations",
+          "slug": "reference-implementations-small-production-service-overview"
+        },
+        {
+          "title": "Platform Capability Reference Implementations",
+          "slug": "reference-implementations-platform-capability-overview"
+        },
+        {
+          "title": "Decision Examples",
+          "slug": "decision-examples-overview"
+        },
+        {
+          "title": "Operational Scenarios",
+          "slug": "operational-scenarios-overview"
+        },
+        {
+          "title": "Deployment and Rollback Scenarios",
+          "slug": "operational-scenarios-deployment-and-rollback-overview"
+        },
+        {
+          "title": "Runtime and Platform Scenarios",
+          "slug": "operational-scenarios-runtime-and-platform-overview"
+        },
+        {
+          "title": "Network and TLS Scenarios",
+          "slug": "operational-scenarios-network-and-tls-overview"
+        },
+        {
+          "title": "Data and Recovery Scenarios",
+          "slug": "operational-scenarios-data-and-recovery-overview"
+        },
+        {
+          "title": "Security Incident Scenarios",
+          "slug": "operational-scenarios-security-incidents-overview"
+        },
+        {
+          "title": "Example Name",
+          "slug": "example-readme-template"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "examples",
+          "pages": [
+            {
+              "title": "Engineering Examples Catalog",
+              "slug": "overview",
+              "description": "Reusable examples and reference implementations that apply the standards in this playbook to inspectable engineering artifacts.",
+              "sourcePath": "examples/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/README.md",
+              "contentPath": "/content/pages/examples/overview.json",
+              "nextPage": {
+                "title": "Snippets",
+                "route": "/books/examples/pages/snippets-overview"
+              }
+            },
+            {
+              "title": "Example Name",
+              "slug": "example-readme-template",
+              "description": "Purpose:",
+              "sourcePath": "examples/example-readme-template.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/example-readme-template.md",
+              "contentPath": "/content/pages/examples/example-readme-template.json",
+              "previousPage": {
+                "title": "Security Incident Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-security-incidents-overview"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/examples/pages/references"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "The structure in this catalog is a local organization model for this playbook. The external sources below inform artifact types and reusable-example expectations; they do not prescribe this entire directory hierarchy.",
+              "sourcePath": "examples/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/references.md",
+              "contentPath": "/content/pages/examples/references.json",
+              "previousPage": {
+                "title": "Example Name",
+                "route": "/books/examples/pages/example-readme-template"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Snippets",
+          "slug": "snippets",
+          "description": "Snippets documents",
+          "sourcePath": "examples/snippets",
+          "pages": [
+            {
+              "title": "Snippets",
+              "slug": "snippets-overview",
+              "description": "Focused fragments that illustrate one engineering decision without presenting themselves as deployable solutions.",
+              "sourcePath": "examples/snippets/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/snippets/README.md",
+              "contentPath": "/content/pages/examples/snippets-overview.json",
+              "previousPage": {
+                "title": "Engineering Examples Catalog",
+                "route": "/books/examples/pages/overview"
+              },
+              "nextPage": {
+                "title": "Container Snippets",
+                "route": "/books/examples/pages/snippets-containers-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Snippets / Containers",
+          "slug": "snippets-containers",
+          "description": "Snippets / Containers documents",
+          "sourcePath": "examples/snippets/containers",
+          "pages": [
+            {
+              "title": "Container Snippets",
+              "slug": "snippets-containers-overview",
+              "description": "Small container/runtime patterns such as healthcheck syntax, non-root runtime fragments, entrypoint handling or network/storage declaration excerpts.",
+              "sourcePath": "examples/snippets/containers/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/snippets/containers/README.md",
+              "contentPath": "/content/pages/examples/snippets-containers-overview.json",
+              "previousPage": {
+                "title": "Snippets",
+                "route": "/books/examples/pages/snippets-overview"
+              },
+              "nextPage": {
+                "title": "Delivery Snippets",
+                "route": "/books/examples/pages/snippets-delivery-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Snippets / Delivery",
+          "slug": "snippets-delivery",
+          "description": "Snippets / Delivery documents",
+          "sourcePath": "examples/snippets/delivery",
+          "pages": [
+            {
+              "title": "Delivery Snippets",
+              "slug": "snippets-delivery-overview",
+              "description": "Small CI/CD fragments such as immutable image tagging, a deployment health verification step or a constrained GitHub Actions permission block.",
+              "sourcePath": "examples/snippets/delivery/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/snippets/delivery/README.md",
+              "contentPath": "/content/pages/examples/snippets-delivery-overview.json",
+              "previousPage": {
+                "title": "Container Snippets",
+                "route": "/books/examples/pages/snippets-containers-overview"
+              },
+              "nextPage": {
+                "title": "Observability Snippets",
+                "route": "/books/examples/pages/snippets-observability-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Snippets / Observability",
+          "slug": "snippets-observability",
+          "description": "Snippets / Observability documents",
+          "sourcePath": "examples/snippets/observability",
+          "pages": [
+            {
+              "title": "Observability Snippets",
+              "slug": "snippets-observability-overview",
+              "description": "Small log, metric, alert and dashboard-query fragments that demonstrate a single observability rule, such as bounded labels or correlation identifiers.",
+              "sourcePath": "examples/snippets/observability/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/snippets/observability/README.md",
+              "contentPath": "/content/pages/examples/snippets-observability-overview.json",
+              "previousPage": {
+                "title": "Delivery Snippets",
+                "route": "/books/examples/pages/snippets-delivery-overview"
+              },
+              "nextPage": {
+                "title": "Operations Snippets",
+                "route": "/books/examples/pages/snippets-operations-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Snippets / Operations",
+          "slug": "snippets-operations",
+          "description": "Snippets / Operations documents",
+          "sourcePath": "examples/snippets/operations",
+          "pages": [
+            {
+              "title": "Operations Snippets",
+              "slug": "snippets-operations-overview",
+              "description": "Read-only operational command or query fragments used to explain a diagnostic step without defining a full recovery procedure.",
+              "sourcePath": "examples/snippets/operations/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/snippets/operations/README.md",
+              "contentPath": "/content/pages/examples/snippets-operations-overview.json",
+              "previousPage": {
+                "title": "Observability Snippets",
+                "route": "/books/examples/pages/snippets-observability-overview"
+              },
+              "nextPage": {
+                "title": "Templates",
+                "route": "/books/examples/pages/templates-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates",
+          "slug": "templates",
+          "description": "Templates documents",
+          "sourcePath": "examples/templates",
+          "pages": [
+            {
+              "title": "Templates",
+              "slug": "templates-overview",
+              "description": "Reusable starting points intended to be copied into a project and adapted. Templates demonstrate a maintained default, but they are not production deployments without project-specific configuration, access controls and verification.",
+              "sourcePath": "examples/templates/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/README.md",
+              "contentPath": "/content/pages/examples/templates-overview.json",
+              "previousPage": {
+                "title": "Operations Snippets",
+                "route": "/books/examples/pages/snippets-operations-overview"
+              },
+              "nextPage": {
+                "title": "Container Templates",
+                "route": "/books/examples/pages/templates-containers-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Containers",
+          "slug": "templates-containers",
+          "description": "Templates / Containers documents",
+          "sourcePath": "examples/templates/containers",
+          "pages": [
+            {
+              "title": "Container Templates",
+              "slug": "templates-containers-overview",
+              "description": "Copyable container-building and local-runtime patterns that apply Docker Standards.",
+              "sourcePath": "examples/templates/containers/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/containers/README.md",
+              "contentPath": "/content/pages/examples/templates-containers-overview.json",
+              "previousPage": {
+                "title": "Templates",
+                "route": "/books/examples/pages/templates-overview"
+              },
+              "nextPage": {
+                "title": "Dockerfile Templates",
+                "route": "/books/examples/pages/templates-containers-dockerfiles-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Containers / Dockerfiles",
+          "slug": "templates-containers-dockerfiles",
+          "description": "Templates / Containers / Dockerfiles documents",
+          "sourcePath": "examples/templates/containers/dockerfiles",
+          "pages": [
+            {
+              "title": "Dockerfile Templates",
+              "slug": "templates-containers-dockerfiles-overview",
+              "description": "Future production-oriented Dockerfile and multi-stage build templates. Each addition must document build targets, runtime user, secret handling, image validation and intended workload type.",
+              "sourcePath": "examples/templates/containers/dockerfiles/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/containers/dockerfiles/README.md",
+              "contentPath": "/content/pages/examples/templates-containers-dockerfiles-overview.json",
+              "previousPage": {
+                "title": "Container Templates",
+                "route": "/books/examples/pages/templates-containers-overview"
+              },
+              "nextPage": {
+                "title": "PHP-FPM and NGINX Templates",
+                "route": "/books/examples/pages/templates-containers-php-fpm-nginx-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Containers / Php Fpm Nginx",
+          "slug": "templates-containers-php-fpm-nginx",
+          "description": "Templates / Containers / Php Fpm Nginx documents",
+          "sourcePath": "examples/templates/containers/php-fpm-nginx",
+          "pages": [
+            {
+              "title": "PHP-FPM and NGINX Templates",
+              "slug": "templates-containers-php-fpm-nginx-overview",
+              "description": "Future app/web split templates showing independent PHP-FPM runtime and NGINX delivery concerns, network paths, health behavior and image ownership.",
+              "sourcePath": "examples/templates/containers/php-fpm-nginx/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/containers/php-fpm-nginx/README.md",
+              "contentPath": "/content/pages/examples/templates-containers-php-fpm-nginx-overview.json",
+              "previousPage": {
+                "title": "Dockerfile Templates",
+                "route": "/books/examples/pages/templates-containers-dockerfiles-overview"
+              },
+              "nextPage": {
+                "title": "Compose Templates",
+                "route": "/books/examples/pages/templates-containers-compose-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Containers / Compose",
+          "slug": "templates-containers-compose",
+          "description": "Templates / Containers / Compose documents",
+          "sourcePath": "examples/templates/containers/compose",
+          "pages": [
+            {
+              "title": "Compose Templates",
+              "slug": "templates-containers-compose-overview",
+              "description": "Future Compose-based development or deliberately small deployment templates. Each addition must distinguish local convenience from production operating assumptions.",
+              "sourcePath": "examples/templates/containers/compose/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/containers/compose/README.md",
+              "contentPath": "/content/pages/examples/templates-containers-compose-overview.json",
+              "previousPage": {
+                "title": "PHP-FPM and NGINX Templates",
+                "route": "/books/examples/pages/templates-containers-php-fpm-nginx-overview"
+              },
+              "nextPage": {
+                "title": "Healthcheck Templates",
+                "route": "/books/examples/pages/templates-containers-healthchecks-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Containers / Healthchecks",
+          "slug": "templates-containers-healthchecks",
+          "description": "Templates / Containers / Healthchecks documents",
+          "sourcePath": "examples/templates/containers/healthchecks",
+          "pages": [
+            {
+              "title": "Healthcheck Templates",
+              "slug": "templates-containers-healthchecks-overview",
+              "description": "Future health behavior templates covering liveness, readiness and routed verification without exposing sensitive dependency detail.",
+              "sourcePath": "examples/templates/containers/healthchecks/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/containers/healthchecks/README.md",
+              "contentPath": "/content/pages/examples/templates-containers-healthchecks-overview.json",
+              "previousPage": {
+                "title": "Compose Templates",
+                "route": "/books/examples/pages/templates-containers-compose-overview"
+              },
+              "nextPage": {
+                "title": "Container Networking and Storage Templates",
+                "route": "/books/examples/pages/templates-containers-networking-and-storage-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Containers / Networking And Storage",
+          "slug": "templates-containers-networking-and-storage",
+          "description": "Templates / Containers / Networking And Storage documents",
+          "sourcePath": "examples/templates/containers/networking-and-storage",
+          "pages": [
+            {
+              "title": "Container Networking and Storage Templates",
+              "slug": "templates-containers-networking-and-storage-overview",
+              "description": "Future templates for intentional container networks, volumes and durable-state boundaries, with backup and portability limitations identified.",
+              "sourcePath": "examples/templates/containers/networking-and-storage/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/containers/networking-and-storage/README.md",
+              "contentPath": "/content/pages/examples/templates-containers-networking-and-storage-overview.json",
+              "previousPage": {
+                "title": "Healthcheck Templates",
+                "route": "/books/examples/pages/templates-containers-healthchecks-overview"
+              },
+              "nextPage": {
+                "title": "Delivery Templates",
+                "route": "/books/examples/pages/templates-delivery-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Delivery",
+          "slug": "templates-delivery",
+          "description": "Templates / Delivery documents",
+          "sourcePath": "examples/templates/delivery",
+          "pages": [
+            {
+              "title": "Delivery Templates",
+              "slug": "templates-delivery-overview",
+              "description": "Reusable automation baselines that apply CI/CD Standards and GitHub Standards.",
+              "sourcePath": "examples/templates/delivery/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/delivery/README.md",
+              "contentPath": "/content/pages/examples/templates-delivery-overview.json",
+              "previousPage": {
+                "title": "Container Networking and Storage Templates",
+                "route": "/books/examples/pages/templates-containers-networking-and-storage-overview"
+              },
+              "nextPage": {
+                "title": "GitHub Actions Templates",
+                "route": "/books/examples/pages/templates-delivery-github-actions-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Delivery / Github Actions",
+          "slug": "templates-delivery-github-actions",
+          "description": "Templates / Delivery / Github Actions documents",
+          "sourcePath": "examples/templates/delivery/github-actions",
+          "pages": [
+            {
+              "title": "GitHub Actions Templates",
+              "slug": "templates-delivery-github-actions-overview",
+              "description": "Future reusable workflow and workflow-template examples covering permissions, credentials, validation, artifact identity and environment protection.",
+              "sourcePath": "examples/templates/delivery/github-actions/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/delivery/github-actions/README.md",
+              "contentPath": "/content/pages/examples/templates-delivery-github-actions-overview.json",
+              "previousPage": {
+                "title": "Delivery Templates",
+                "route": "/books/examples/pages/templates-delivery-overview"
+              },
+              "nextPage": {
+                "title": "Image Publishing Templates",
+                "route": "/books/examples/pages/templates-delivery-image-publishing-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Delivery / Image Publishing",
+          "slug": "templates-delivery-image-publishing",
+          "description": "Templates / Delivery / Image Publishing documents",
+          "sourcePath": "examples/templates/delivery/image-publishing",
+          "pages": [
+            {
+              "title": "Image Publishing Templates",
+              "slug": "templates-delivery-image-publishing-overview",
+              "description": "Future registry publication templates showing trusted builds, tags, immutable digests, scoped credentials and promotion evidence.",
+              "sourcePath": "examples/templates/delivery/image-publishing/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/delivery/image-publishing/README.md",
+              "contentPath": "/content/pages/examples/templates-delivery-image-publishing-overview.json",
+              "previousPage": {
+                "title": "GitHub Actions Templates",
+                "route": "/books/examples/pages/templates-delivery-github-actions-overview"
+              },
+              "nextPage": {
+                "title": "Deployment Templates",
+                "route": "/books/examples/pages/templates-delivery-deployments-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Delivery / Deployments",
+          "slug": "templates-delivery-deployments",
+          "description": "Templates / Delivery / Deployments documents",
+          "sourcePath": "examples/templates/delivery/deployments",
+          "pages": [
+            {
+              "title": "Deployment Templates",
+              "slug": "templates-delivery-deployments-overview",
+              "description": "Future deployment workflow templates for environment promotion, health verification and infrastructure-aware delivery authority.",
+              "sourcePath": "examples/templates/delivery/deployments/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/delivery/deployments/README.md",
+              "contentPath": "/content/pages/examples/templates-delivery-deployments-overview.json",
+              "previousPage": {
+                "title": "Image Publishing Templates",
+                "route": "/books/examples/pages/templates-delivery-image-publishing-overview"
+              },
+              "nextPage": {
+                "title": "Rollback Templates",
+                "route": "/books/examples/pages/templates-delivery-rollback-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Delivery / Rollback",
+          "slug": "templates-delivery-rollback",
+          "description": "Templates / Delivery / Rollback documents",
+          "sourcePath": "examples/templates/delivery/rollback",
+          "pages": [
+            {
+              "title": "Rollback Templates",
+              "slug": "templates-delivery-rollback-overview",
+              "description": "Future rollback workflow examples that define compatible recovery boundaries, prior artifact selection, validation and escalation when rollback is unsafe.",
+              "sourcePath": "examples/templates/delivery/rollback/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/delivery/rollback/README.md",
+              "contentPath": "/content/pages/examples/templates-delivery-rollback-overview.json",
+              "previousPage": {
+                "title": "Deployment Templates",
+                "route": "/books/examples/pages/templates-delivery-deployments-overview"
+              },
+              "nextPage": {
+                "title": "Platform Templates",
+                "route": "/books/examples/pages/templates-platform-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Platform",
+          "slug": "templates-platform",
+          "description": "Templates / Platform documents",
+          "sourcePath": "examples/templates/platform",
+          "pages": [
+            {
+              "title": "Platform Templates",
+              "slug": "templates-platform-overview",
+              "description": "Reusable runtime and shared-platform definitions for containerized delivery and infrastructure-aware service operation.",
+              "sourcePath": "examples/templates/platform/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/platform/README.md",
+              "contentPath": "/content/pages/examples/templates-platform-overview.json",
+              "previousPage": {
+                "title": "Rollback Templates",
+                "route": "/books/examples/pages/templates-delivery-rollback-overview"
+              },
+              "nextPage": {
+                "title": "Docker Swarm Templates",
+                "route": "/books/examples/pages/templates-platform-swarm-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Platform / Swarm",
+          "slug": "templates-platform-swarm",
+          "description": "Templates / Platform / Swarm documents",
+          "sourcePath": "examples/templates/platform/swarm",
+          "pages": [
+            {
+              "title": "Docker Swarm Templates",
+              "slug": "templates-platform-swarm-overview",
+              "description": "Future stack and service definitions for Swarm deployments, including overlay networks, secrets, placement, rolling updates and manager-authority cautions.",
+              "sourcePath": "examples/templates/platform/swarm/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/platform/swarm/README.md",
+              "contentPath": "/content/pages/examples/templates-platform-swarm-overview.json",
+              "previousPage": {
+                "title": "Platform Templates",
+                "route": "/books/examples/pages/templates-platform-overview"
+              },
+              "nextPage": {
+                "title": "Reverse Proxy Templates",
+                "route": "/books/examples/pages/templates-platform-reverse-proxy-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Platform / Reverse Proxy",
+          "slug": "templates-platform-reverse-proxy",
+          "description": "Templates / Platform / Reverse Proxy documents",
+          "sourcePath": "examples/templates/platform/reverse-proxy",
+          "pages": [
+            {
+              "title": "Reverse Proxy Templates",
+              "slug": "templates-platform-reverse-proxy-overview",
+              "description": "Future generic ingress templates demonstrating routing, TLS ownership, backend isolation, health visibility and operational failure boundaries.",
+              "sourcePath": "examples/templates/platform/reverse-proxy/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/platform/reverse-proxy/README.md",
+              "contentPath": "/content/pages/examples/templates-platform-reverse-proxy-overview.json",
+              "previousPage": {
+                "title": "Docker Swarm Templates",
+                "route": "/books/examples/pages/templates-platform-swarm-overview"
+              },
+              "nextPage": {
+                "title": "Traefik Templates",
+                "route": "/books/examples/pages/templates-platform-traefik-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Platform / Traefik",
+          "slug": "templates-platform-traefik",
+          "description": "Templates / Platform / Traefik documents",
+          "sourcePath": "examples/templates/platform/traefik",
+          "pages": [
+            {
+              "title": "Traefik Templates",
+              "slug": "templates-platform-traefik-overview",
+              "description": "Future Traefik-specific edge templates for configured routes, certificate handling, observability and safe application attachment.",
+              "sourcePath": "examples/templates/platform/traefik/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/platform/traefik/README.md",
+              "contentPath": "/content/pages/examples/templates-platform-traefik-overview.json",
+              "previousPage": {
+                "title": "Reverse Proxy Templates",
+                "route": "/books/examples/pages/templates-platform-reverse-proxy-overview"
+              },
+              "nextPage": {
+                "title": "Platform Networking and Storage Templates",
+                "route": "/books/examples/pages/templates-platform-networks-and-storage-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Platform / Networks And Storage",
+          "slug": "templates-platform-networks-and-storage",
+          "description": "Templates / Platform / Networks And Storage documents",
+          "sourcePath": "examples/templates/platform/networks-and-storage",
+          "pages": [
+            {
+              "title": "Platform Networking and Storage Templates",
+              "slug": "templates-platform-networks-and-storage-overview",
+              "description": "Future runtime platform examples for network segmentation and persistent storage attachment, including data recovery and scheduling implications.",
+              "sourcePath": "examples/templates/platform/networks-and-storage/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/platform/networks-and-storage/README.md",
+              "contentPath": "/content/pages/examples/templates-platform-networks-and-storage-overview.json",
+              "previousPage": {
+                "title": "Traefik Templates",
+                "route": "/books/examples/pages/templates-platform-traefik-overview"
+              },
+              "nextPage": {
+                "title": "Kubernetes Templates",
+                "route": "/books/examples/pages/templates-platform-kubernetes-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Platform / Kubernetes",
+          "slug": "templates-platform-kubernetes",
+          "description": "Templates / Platform / Kubernetes documents",
+          "sourcePath": "examples/templates/platform/kubernetes",
+          "pages": [
+            {
+              "title": "Kubernetes Templates",
+              "slug": "templates-platform-kubernetes-overview",
+              "description": "Reserved for future Kubernetes manifests when an operated platform use case justifies them. Manifests must state resource, security, storage and rollout assumptions.",
+              "sourcePath": "examples/templates/platform/kubernetes/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/platform/kubernetes/README.md",
+              "contentPath": "/content/pages/examples/templates-platform-kubernetes-overview.json",
+              "previousPage": {
+                "title": "Platform Networking and Storage Templates",
+                "route": "/books/examples/pages/templates-platform-networks-and-storage-overview"
+              },
+              "nextPage": {
+                "title": "Observability Templates",
+                "route": "/books/examples/pages/templates-observability-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Observability",
+          "slug": "templates-observability",
+          "description": "Templates / Observability documents",
+          "sourcePath": "examples/templates/observability",
+          "pages": [
+            {
+              "title": "Observability Templates",
+              "slug": "templates-observability-overview",
+              "description": "Reusable telemetry stack and signal configuration applying Observability Standards.",
+              "sourcePath": "examples/templates/observability/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/observability/README.md",
+              "contentPath": "/content/pages/examples/templates-observability-overview.json",
+              "previousPage": {
+                "title": "Kubernetes Templates",
+                "route": "/books/examples/pages/templates-platform-kubernetes-overview"
+              },
+              "nextPage": {
+                "title": "Prometheus Templates",
+                "route": "/books/examples/pages/templates-observability-prometheus-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Observability / Prometheus",
+          "slug": "templates-observability-prometheus",
+          "description": "Templates / Observability / Prometheus documents",
+          "sourcePath": "examples/templates/observability/prometheus",
+          "pages": [
+            {
+              "title": "Prometheus Templates",
+              "slug": "templates-observability-prometheus-overview",
+              "description": "Future scrape, recording rule and alert rule templates with explicit metric identity, bounded labels, cardinality and operational validation.",
+              "sourcePath": "examples/templates/observability/prometheus/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/observability/prometheus/README.md",
+              "contentPath": "/content/pages/examples/templates-observability-prometheus-overview.json",
+              "previousPage": {
+                "title": "Observability Templates",
+                "route": "/books/examples/pages/templates-observability-overview"
+              },
+              "nextPage": {
+                "title": "Loki Templates",
+                "route": "/books/examples/pages/templates-observability-loki-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Observability / Loki",
+          "slug": "templates-observability-loki",
+          "description": "Templates / Observability / Loki documents",
+          "sourcePath": "examples/templates/observability/loki",
+          "pages": [
+            {
+              "title": "Loki Templates",
+              "slug": "templates-observability-loki-overview",
+              "description": "Future log ingestion, label and retention templates designed for structured logs, low-cardinality indexing and protected operational access.",
+              "sourcePath": "examples/templates/observability/loki/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/observability/loki/README.md",
+              "contentPath": "/content/pages/examples/templates-observability-loki-overview.json",
+              "previousPage": {
+                "title": "Prometheus Templates",
+                "route": "/books/examples/pages/templates-observability-prometheus-overview"
+              },
+              "nextPage": {
+                "title": "Grafana Templates",
+                "route": "/books/examples/pages/templates-observability-grafana-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Observability / Grafana",
+          "slug": "templates-observability-grafana",
+          "description": "Templates / Observability / Grafana documents",
+          "sourcePath": "examples/templates/observability/grafana",
+          "pages": [
+            {
+              "title": "Grafana Templates",
+              "slug": "templates-observability-grafana-overview",
+              "description": "Future provisioned dashboard and data-source templates designed for symptom-to-cause investigation, release correlation and safe sharing.",
+              "sourcePath": "examples/templates/observability/grafana/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/observability/grafana/README.md",
+              "contentPath": "/content/pages/examples/templates-observability-grafana-overview.json",
+              "previousPage": {
+                "title": "Loki Templates",
+                "route": "/books/examples/pages/templates-observability-loki-overview"
+              },
+              "nextPage": {
+                "title": "OpenTelemetry Templates",
+                "route": "/books/examples/pages/templates-observability-opentelemetry-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Observability / Opentelemetry",
+          "slug": "templates-observability-opentelemetry",
+          "description": "Templates / Observability / Opentelemetry documents",
+          "sourcePath": "examples/templates/observability/opentelemetry",
+          "pages": [
+            {
+              "title": "OpenTelemetry Templates",
+              "slug": "templates-observability-opentelemetry-overview",
+              "description": "Future collector and instrumentation configuration templates showing stable resource identity, context propagation, export and sampling behavior.",
+              "sourcePath": "examples/templates/observability/opentelemetry/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/observability/opentelemetry/README.md",
+              "contentPath": "/content/pages/examples/templates-observability-opentelemetry-overview.json",
+              "previousPage": {
+                "title": "Grafana Templates",
+                "route": "/books/examples/pages/templates-observability-grafana-overview"
+              },
+              "nextPage": {
+                "title": "Structured Logging Templates",
+                "route": "/books/examples/pages/templates-observability-structured-logging-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Observability / Structured Logging",
+          "slug": "templates-observability-structured-logging",
+          "description": "Templates / Observability / Structured Logging documents",
+          "sourcePath": "examples/templates/observability/structured-logging",
+          "pages": [
+            {
+              "title": "Structured Logging Templates",
+              "slug": "templates-observability-structured-logging-overview",
+              "description": "Future application and pipeline log examples defining diagnostic event fields, correlation identifiers, redaction and backend mapping.",
+              "sourcePath": "examples/templates/observability/structured-logging/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/observability/structured-logging/README.md",
+              "contentPath": "/content/pages/examples/templates-observability-structured-logging-overview.json",
+              "previousPage": {
+                "title": "OpenTelemetry Templates",
+                "route": "/books/examples/pages/templates-observability-opentelemetry-overview"
+              },
+              "nextPage": {
+                "title": "SLO and Alerting Templates",
+                "route": "/books/examples/pages/templates-observability-slo-and-alerting-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Observability / Slo And Alerting",
+          "slug": "templates-observability-slo-and-alerting",
+          "description": "Templates / Observability / Slo And Alerting documents",
+          "sourcePath": "examples/templates/observability/slo-and-alerting",
+          "pages": [
+            {
+              "title": "SLO and Alerting Templates",
+              "slug": "templates-observability-slo-and-alerting-overview",
+              "description": "Future SLI, SLO and actionable alert examples linked to dashboards, runbooks and realistic service-impact decisions.",
+              "sourcePath": "examples/templates/observability/slo-and-alerting/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/observability/slo-and-alerting/README.md",
+              "contentPath": "/content/pages/examples/templates-observability-slo-and-alerting-overview.json",
+              "previousPage": {
+                "title": "Structured Logging Templates",
+                "route": "/books/examples/pages/templates-observability-structured-logging-overview"
+              },
+              "nextPage": {
+                "title": "Security Templates",
+                "route": "/books/examples/pages/templates-security-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Security",
+          "slug": "templates-security",
+          "description": "Templates / Security documents",
+          "sourcePath": "examples/templates/security",
+          "pages": [
+            {
+              "title": "Security Templates",
+              "slug": "templates-security-overview",
+              "description": "Adaptable examples that expose safe interfaces for configuration, secrets and container/runtime security without including credentials.",
+              "sourcePath": "examples/templates/security/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/security/README.md",
+              "contentPath": "/content/pages/examples/templates-security-overview.json",
+              "previousPage": {
+                "title": "SLO and Alerting Templates",
+                "route": "/books/examples/pages/templates-observability-slo-and-alerting-overview"
+              },
+              "nextPage": {
+                "title": "Environment Configuration Templates",
+                "route": "/books/examples/pages/templates-security-environment-configuration-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Security / Environment Configuration",
+          "slug": "templates-security-environment-configuration",
+          "description": "Templates / Security / Environment Configuration documents",
+          "sourcePath": "examples/templates/security/environment-configuration",
+          "pages": [
+            {
+              "title": "Environment Configuration Templates",
+              "slug": "templates-security-environment-configuration-overview",
+              "description": "Future safe configuration-contract examples such as .env.example files with placeholders only and explicit environment separation expectations.",
+              "sourcePath": "examples/templates/security/environment-configuration/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/security/environment-configuration/README.md",
+              "contentPath": "/content/pages/examples/templates-security-environment-configuration-overview.json",
+              "previousPage": {
+                "title": "Security Templates",
+                "route": "/books/examples/pages/templates-security-overview"
+              },
+              "nextPage": {
+                "title": "Secret Delivery Templates",
+                "route": "/books/examples/pages/templates-security-secret-delivery-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Security / Secret Delivery",
+          "slug": "templates-security-secret-delivery",
+          "description": "Templates / Security / Secret Delivery documents",
+          "sourcePath": "examples/templates/security/secret-delivery",
+          "pages": [
+            {
+              "title": "Secret Delivery Templates",
+              "slug": "templates-security-secret-delivery-overview",
+              "description": "Future examples for secret object references and runtime consumption without committing, printing or distributing credential values.",
+              "sourcePath": "examples/templates/security/secret-delivery/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/security/secret-delivery/README.md",
+              "contentPath": "/content/pages/examples/templates-security-secret-delivery-overview.json",
+              "previousPage": {
+                "title": "Environment Configuration Templates",
+                "route": "/books/examples/pages/templates-security-environment-configuration-overview"
+              },
+              "nextPage": {
+                "title": "Container Hardening Templates",
+                "route": "/books/examples/pages/templates-security-container-hardening-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Security / Container Hardening",
+          "slug": "templates-security-container-hardening",
+          "description": "Templates / Security / Container Hardening documents",
+          "sourcePath": "examples/templates/security/container-hardening",
+          "pages": [
+            {
+              "title": "Container Hardening Templates",
+              "slug": "templates-security-container-hardening-overview",
+              "description": "Future runtime hardening examples covering non-root execution, restricted permissions, image trust and operational diagnostic tradeoffs.",
+              "sourcePath": "examples/templates/security/container-hardening/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/security/container-hardening/README.md",
+              "contentPath": "/content/pages/examples/templates-security-container-hardening-overview.json",
+              "previousPage": {
+                "title": "Secret Delivery Templates",
+                "route": "/books/examples/pages/templates-security-secret-delivery-overview"
+              },
+              "nextPage": {
+                "title": "Infrastructure-as-Code Templates",
+                "route": "/books/examples/pages/templates-infrastructure-as-code-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Infrastructure As Code",
+          "slug": "templates-infrastructure-as-code",
+          "description": "Templates / Infrastructure As Code documents",
+          "sourcePath": "examples/templates/infrastructure-as-code",
+          "pages": [
+            {
+              "title": "Infrastructure-as-Code Templates",
+              "slug": "templates-infrastructure-as-code-overview",
+              "description": "Provisioning templates and module usage examples that apply Infrastructure Standards.",
+              "sourcePath": "examples/templates/infrastructure-as-code/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/infrastructure-as-code/README.md",
+              "contentPath": "/content/pages/examples/templates-infrastructure-as-code-overview.json",
+              "previousPage": {
+                "title": "Container Hardening Templates",
+                "route": "/books/examples/pages/templates-security-container-hardening-overview"
+              },
+              "nextPage": {
+                "title": "Infrastructure Module Templates",
+                "route": "/books/examples/pages/templates-infrastructure-as-code-modules-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Infrastructure As Code / Modules",
+          "slug": "templates-infrastructure-as-code-modules",
+          "description": "Templates / Infrastructure As Code / Modules documents",
+          "sourcePath": "examples/templates/infrastructure-as-code/modules",
+          "pages": [
+            {
+              "title": "Infrastructure Module Templates",
+              "slug": "templates-infrastructure-as-code-modules-overview",
+              "description": "Future reusable IaC module examples with inputs, outputs, provider assumptions, state implications and validation documented.",
+              "sourcePath": "examples/templates/infrastructure-as-code/modules/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/infrastructure-as-code/modules/README.md",
+              "contentPath": "/content/pages/examples/templates-infrastructure-as-code-modules-overview.json",
+              "previousPage": {
+                "title": "Infrastructure-as-Code Templates",
+                "route": "/books/examples/pages/templates-infrastructure-as-code-overview"
+              },
+              "nextPage": {
+                "title": "Infrastructure Environment Templates",
+                "route": "/books/examples/pages/templates-infrastructure-as-code-environments-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Infrastructure As Code / Environments",
+          "slug": "templates-infrastructure-as-code-environments",
+          "description": "Templates / Infrastructure As Code / Environments documents",
+          "sourcePath": "examples/templates/infrastructure-as-code/environments",
+          "pages": [
+            {
+              "title": "Infrastructure Environment Templates",
+              "slug": "templates-infrastructure-as-code-environments-overview",
+              "description": "Future composition examples for lab, staging and production-oriented environments with boundaries, access, state and cost assumptions stated.",
+              "sourcePath": "examples/templates/infrastructure-as-code/environments/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/infrastructure-as-code/environments/README.md",
+              "contentPath": "/content/pages/examples/templates-infrastructure-as-code-environments-overview.json",
+              "previousPage": {
+                "title": "Infrastructure Module Templates",
+                "route": "/books/examples/pages/templates-infrastructure-as-code-modules-overview"
+              },
+              "nextPage": {
+                "title": "Infrastructure Topology Templates",
+                "route": "/books/examples/pages/templates-infrastructure-as-code-topologies-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Templates / Infrastructure As Code / Topologies",
+          "slug": "templates-infrastructure-as-code-topologies",
+          "description": "Templates / Infrastructure As Code / Topologies documents",
+          "sourcePath": "examples/templates/infrastructure-as-code/topologies",
+          "pages": [
+            {
+              "title": "Infrastructure Topology Templates",
+              "slug": "templates-infrastructure-as-code-topologies-overview",
+              "description": "Future provisioning examples paired with runtime topology, availability, networking, storage and recovery rationale.",
+              "sourcePath": "examples/templates/infrastructure-as-code/topologies/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/templates/infrastructure-as-code/topologies/README.md",
+              "contentPath": "/content/pages/examples/templates-infrastructure-as-code-topologies-overview.json",
+              "previousPage": {
+                "title": "Infrastructure Environment Templates",
+                "route": "/books/examples/pages/templates-infrastructure-as-code-environments-overview"
+              },
+              "nextPage": {
+                "title": "Reference Implementations",
+                "route": "/books/examples/pages/reference-implementations-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Reference Implementations",
+          "slug": "reference-implementations",
+          "description": "Reference Implementations documents",
+          "sourcePath": "examples/reference-implementations",
+          "pages": [
+            {
+              "title": "Reference Implementations",
+              "slug": "reference-implementations-overview",
+              "description": "Integrated examples demonstrating multiple standards together: source shape, images, delivery, runtime topology, observability, security boundaries and operational recovery.",
+              "sourcePath": "examples/reference-implementations/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/reference-implementations/README.md",
+              "contentPath": "/content/pages/examples/reference-implementations-overview.json",
+              "previousPage": {
+                "title": "Infrastructure Topology Templates",
+                "route": "/books/examples/pages/templates-infrastructure-as-code-topologies-overview"
+              },
+              "nextPage": {
+                "title": "Local Lab Reference Implementations",
+                "route": "/books/examples/pages/reference-implementations-local-lab-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Reference Implementations / Local Lab",
+          "slug": "reference-implementations-local-lab",
+          "description": "Reference Implementations / Local Lab documents",
+          "sourcePath": "examples/reference-implementations/local-lab",
+          "pages": [
+            {
+              "title": "Local Lab Reference Implementations",
+              "slug": "reference-implementations-local-lab-overview",
+              "description": "Integrated local examples for learning or validating a pattern without production authority or production data.",
+              "sourcePath": "examples/reference-implementations/local-lab/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/reference-implementations/local-lab/README.md",
+              "contentPath": "/content/pages/examples/reference-implementations-local-lab-overview.json",
+              "previousPage": {
+                "title": "Reference Implementations",
+                "route": "/books/examples/pages/reference-implementations-overview"
+              },
+              "nextPage": {
+                "title": "Small Production Service Reference Implementations",
+                "route": "/books/examples/pages/reference-implementations-small-production-service-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Reference Implementations / Small Production Service",
+          "slug": "reference-implementations-small-production-service",
+          "description": "Reference Implementations / Small Production Service documents",
+          "sourcePath": "examples/reference-implementations/small-production-service",
+          "pages": [
+            {
+              "title": "Small Production Service Reference Implementations",
+              "slug": "reference-implementations-small-production-service-overview",
+              "description": "Integrated examples for a deliberately limited live service, such as a containerized API behind managed or operated ingress with durable data, delivery automation, monitoring and documented recovery.",
+              "sourcePath": "examples/reference-implementations/small-production-service/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/reference-implementations/small-production-service/README.md",
+              "contentPath": "/content/pages/examples/reference-implementations-small-production-service-overview.json",
+              "previousPage": {
+                "title": "Local Lab Reference Implementations",
+                "route": "/books/examples/pages/reference-implementations-local-lab-overview"
+              },
+              "nextPage": {
+                "title": "Platform Capability Reference Implementations",
+                "route": "/books/examples/pages/reference-implementations-platform-capability-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Reference Implementations / Platform Capability",
+          "slug": "reference-implementations-platform-capability",
+          "description": "Reference Implementations / Platform Capability documents",
+          "sourcePath": "examples/reference-implementations/platform-capability",
+          "pages": [
+            {
+              "title": "Platform Capability Reference Implementations",
+              "slug": "reference-implementations-platform-capability-overview",
+              "description": "Integrated examples for a shared operational capability such as ingress, observability or an artifact-delivery path.",
+              "sourcePath": "examples/reference-implementations/platform-capability/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/reference-implementations/platform-capability/README.md",
+              "contentPath": "/content/pages/examples/reference-implementations-platform-capability-overview.json",
+              "previousPage": {
+                "title": "Small Production Service Reference Implementations",
+                "route": "/books/examples/pages/reference-implementations-small-production-service-overview"
+              },
+              "nextPage": {
+                "title": "Decision Examples",
+                "route": "/books/examples/pages/decision-examples-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Decision Examples",
+          "slug": "decision-examples",
+          "description": "Decision Examples documents",
+          "sourcePath": "examples/decision-examples",
+          "pages": [
+            {
+              "title": "Decision Examples",
+              "slug": "decision-examples-overview",
+              "description": "Illustrative Architecture Decision Records (ADRs) demonstrating how a reference implementation explains a consequential engineering choice.",
+              "sourcePath": "examples/decision-examples/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/decision-examples/README.md",
+              "contentPath": "/content/pages/examples/decision-examples-overview.json",
+              "previousPage": {
+                "title": "Platform Capability Reference Implementations",
+                "route": "/books/examples/pages/reference-implementations-platform-capability-overview"
+              },
+              "nextPage": {
+                "title": "Operational Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Scenarios",
+          "slug": "operational-scenarios",
+          "description": "Operational Scenarios documents",
+          "sourcePath": "examples/operational-scenarios",
+          "pages": [
+            {
+              "title": "Operational Scenarios",
+              "slug": "operational-scenarios-overview",
+              "description": "Rehearsable examples for investigation, mitigation and recovery. These scenarios apply Operational Runbooks and Observability Standards.",
+              "sourcePath": "examples/operational-scenarios/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/operational-scenarios/README.md",
+              "contentPath": "/content/pages/examples/operational-scenarios-overview.json",
+              "previousPage": {
+                "title": "Decision Examples",
+                "route": "/books/examples/pages/decision-examples-overview"
+              },
+              "nextPage": {
+                "title": "Deployment and Rollback Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-deployment-and-rollback-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Scenarios / Deployment And Rollback",
+          "slug": "operational-scenarios-deployment-and-rollback",
+          "description": "Operational Scenarios / Deployment And Rollback documents",
+          "sourcePath": "examples/operational-scenarios/deployment-and-rollback",
+          "pages": [
+            {
+              "title": "Deployment and Rollback Scenarios",
+              "slug": "operational-scenarios-deployment-and-rollback-overview",
+              "description": "Future scenarios for failing releases, immutable artifact verification, deployment health failure, controlled rollback and post-recovery observation.",
+              "sourcePath": "examples/operational-scenarios/deployment-and-rollback/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/operational-scenarios/deployment-and-rollback/README.md",
+              "contentPath": "/content/pages/examples/operational-scenarios-deployment-and-rollback-overview.json",
+              "previousPage": {
+                "title": "Operational Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-overview"
+              },
+              "nextPage": {
+                "title": "Runtime and Platform Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-runtime-and-platform-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Scenarios / Runtime And Platform",
+          "slug": "operational-scenarios-runtime-and-platform",
+          "description": "Operational Scenarios / Runtime And Platform documents",
+          "sourcePath": "examples/operational-scenarios/runtime-and-platform",
+          "pages": [
+            {
+              "title": "Runtime and Platform Scenarios",
+              "slug": "operational-scenarios-runtime-and-platform-overview",
+              "description": "Future troubleshooting exercises for container startup failure, task/Pod health, Docker Swarm scheduling or manager issues, capacity exhaustion and shared platform dependency failure.",
+              "sourcePath": "examples/operational-scenarios/runtime-and-platform/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/operational-scenarios/runtime-and-platform/README.md",
+              "contentPath": "/content/pages/examples/operational-scenarios-runtime-and-platform-overview.json",
+              "previousPage": {
+                "title": "Deployment and Rollback Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-deployment-and-rollback-overview"
+              },
+              "nextPage": {
+                "title": "Network and TLS Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-network-and-tls-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Scenarios / Network And Tls",
+          "slug": "operational-scenarios-network-and-tls",
+          "description": "Operational Scenarios / Network And Tls documents",
+          "sourcePath": "examples/operational-scenarios/network-and-tls",
+          "pages": [
+            {
+              "title": "Network and TLS Scenarios",
+              "slug": "operational-scenarios-network-and-tls-overview",
+              "description": "Future investigation examples for DNS failures, certificate renewal or hostname errors, reverse proxy routing failures and internal service connectivity.",
+              "sourcePath": "examples/operational-scenarios/network-and-tls/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/operational-scenarios/network-and-tls/README.md",
+              "contentPath": "/content/pages/examples/operational-scenarios-network-and-tls-overview.json",
+              "previousPage": {
+                "title": "Runtime and Platform Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-runtime-and-platform-overview"
+              },
+              "nextPage": {
+                "title": "Data and Recovery Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-data-and-recovery-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Scenarios / Data And Recovery",
+          "slug": "operational-scenarios-data-and-recovery",
+          "description": "Operational Scenarios / Data And Recovery documents",
+          "sourcePath": "examples/operational-scenarios/data-and-recovery",
+          "pages": [
+            {
+              "title": "Data and Recovery Scenarios",
+              "slug": "operational-scenarios-data-and-recovery-overview",
+              "description": "Future operational examples for database connectivity, persistent storage pressure, backup validation and controlled restore exercises.",
+              "sourcePath": "examples/operational-scenarios/data-and-recovery/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/operational-scenarios/data-and-recovery/README.md",
+              "contentPath": "/content/pages/examples/operational-scenarios-data-and-recovery-overview.json",
+              "previousPage": {
+                "title": "Network and TLS Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-network-and-tls-overview"
+              },
+              "nextPage": {
+                "title": "Security Incident Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-security-incidents-overview"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Scenarios / Security Incidents",
+          "slug": "operational-scenarios-security-incidents",
+          "description": "Operational Scenarios / Security Incidents documents",
+          "sourcePath": "examples/operational-scenarios/security-incidents",
+          "pages": [
+            {
+              "title": "Security Incident Scenarios",
+              "slug": "operational-scenarios-security-incidents-overview",
+              "description": "Future examples for leaked tokens, failed credential rotation, suspicious published images or unauthorized deployment evidence.",
+              "sourcePath": "examples/operational-scenarios/security-incidents/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/examples/operational-scenarios/security-incidents/README.md",
+              "contentPath": "/content/pages/examples/operational-scenarios-security-incidents-overview.json",
+              "previousPage": {
+                "title": "Data and Recovery Scenarios",
+                "route": "/books/examples/pages/operational-scenarios-data-and-recovery-overview"
+              },
+              "nextPage": {
+                "title": "Example Name",
+                "route": "/books/examples/pages/example-readme-template"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "GitHub",
+      "slug": "github",
+      "description": "Repository configuration and collaboration standards",
+      "sourcePath": "github/README.md",
+      "navigation": [
+        {
+          "title": "GitHub Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Repository Configuration",
+          "slug": "repository-configuration"
+        },
+        {
+          "title": "Branching Strategies",
+          "slug": "branching-strategies"
+        },
+        {
+          "title": "Branches, Commits and Pull Requests",
+          "slug": "branches-commits-and-pull-requests"
+        },
+        {
+          "title": "Issues, Projects and Releases",
+          "slug": "issues-projects-and-releases"
+        },
+        {
+          "title": "Actions and Delivery Integration",
+          "slug": "actions-and-delivery-integration"
+        },
+        {
+          "title": "Access, Secrets and Security",
+          "slug": "access-secrets-and-security"
+        },
+        {
+          "title": "Lifecycle and Portfolio Presentation",
+          "slug": "lifecycle-and-portfolio"
+        },
+        {
+          "title": "GitHub Repository Checklist",
+          "slug": "repository-checklist"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "github",
+          "pages": [
+            {
+              "title": "GitHub Standards",
+              "slug": "overview",
+              "description": "Practical standards for managing repositories, collaboration, delivery automation and security controls on GitHub.",
+              "sourcePath": "github/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/README.md",
+              "contentPath": "/content/pages/github/overview.json",
+              "nextPage": {
+                "title": "Repository Configuration",
+                "route": "/books/github/pages/repository-configuration"
+              }
+            },
+            {
+              "title": "Repository Configuration",
+              "slug": "repository-configuration",
+              "description": "A repository should make ownership, purpose, delivery status and documentation discoverable before someone opens source files or workflow YAML.",
+              "sourcePath": "github/repository-configuration.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/repository-configuration.md",
+              "contentPath": "/content/pages/github/repository-configuration.json",
+              "previousPage": {
+                "title": "GitHub Standards",
+                "route": "/books/github/pages/overview"
+              },
+              "nextPage": {
+                "title": "Branching Strategies",
+                "route": "/books/github/pages/branching-strategies"
+              }
+            },
+            {
+              "title": "Branching Strategies",
+              "slug": "branching-strategies",
+              "description": "Branching strategy is an engineering and release-management decision. Choose the simplest model that supports release, maintenance and audit requirements without introducing unnecessary integration delay.",
+              "sourcePath": "github/branching-strategies.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/branching-strategies.md",
+              "contentPath": "/content/pages/github/branching-strategies.json",
+              "previousPage": {
+                "title": "Repository Configuration",
+                "route": "/books/github/pages/repository-configuration"
+              },
+              "nextPage": {
+                "title": "Branches, Commits and Pull Requests",
+                "route": "/books/github/pages/branches-commits-and-pull-requests"
+              }
+            },
+            {
+              "title": "Branches, Commits and Pull Requests",
+              "slug": "branches-commits-and-pull-requests",
+              "description": "The collaboration flow should keep the trusted branch reviewable and releasable while avoiding process that exceeds project risk.",
+              "sourcePath": "github/branches-commits-and-pull-requests.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/branches-commits-and-pull-requests.md",
+              "contentPath": "/content/pages/github/branches-commits-and-pull-requests.json",
+              "previousPage": {
+                "title": "Branching Strategies",
+                "route": "/books/github/pages/branching-strategies"
+              },
+              "nextPage": {
+                "title": "Issues, Projects and Releases",
+                "route": "/books/github/pages/issues-projects-and-releases"
+              }
+            },
+            {
+              "title": "Issues, Projects and Releases",
+              "slug": "issues-projects-and-releases",
+              "description": "GitHub planning features should improve discoverability and release traceability, not create duplicate administration for small projects.",
+              "sourcePath": "github/issues-projects-and-releases.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/issues-projects-and-releases.md",
+              "contentPath": "/content/pages/github/issues-projects-and-releases.json",
+              "previousPage": {
+                "title": "Branches, Commits and Pull Requests",
+                "route": "/books/github/pages/branches-commits-and-pull-requests"
+              },
+              "nextPage": {
+                "title": "Actions and Delivery Integration",
+                "route": "/books/github/pages/actions-and-delivery-integration"
+              }
+            },
+            {
+              "title": "Actions and Delivery Integration",
+              "slug": "actions-and-delivery-integration",
+              "description": "GitHub Actions workflows can validate changes, publish artifacts and deploy environments. A workflow with registry or production access is privileged delivery code and must be reviewed accordingly.",
+              "sourcePath": "github/actions-and-delivery-integration.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/actions-and-delivery-integration.md",
+              "contentPath": "/content/pages/github/actions-and-delivery-integration.json",
+              "previousPage": {
+                "title": "Issues, Projects and Releases",
+                "route": "/books/github/pages/issues-projects-and-releases"
+              },
+              "nextPage": {
+                "title": "Access, Secrets and Security",
+                "route": "/books/github/pages/access-secrets-and-security"
+              }
+            },
+            {
+              "title": "Access, Secrets and Security",
+              "slug": "access-secrets-and-security",
+              "description": "Repository access and automation credentials must reflect what a person or workflow actually needs to do. GitHub is often the first point from which production authority, packages and public source can be altered.",
+              "sourcePath": "github/access-secrets-and-security.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/access-secrets-and-security.md",
+              "contentPath": "/content/pages/github/access-secrets-and-security.json",
+              "previousPage": {
+                "title": "Actions and Delivery Integration",
+                "route": "/books/github/pages/actions-and-delivery-integration"
+              },
+              "nextPage": {
+                "title": "Lifecycle and Portfolio Presentation",
+                "route": "/books/github/pages/lifecycle-and-portfolio"
+              }
+            },
+            {
+              "title": "Lifecycle and Portfolio Presentation",
+              "slug": "lifecycle-and-portfolio",
+              "description": "Repositories have a lifecycle: creation, active delivery, publication, maintenance and retirement. A public portfolio repository also communicates engineering judgment to readers who will not know its private context.",
+              "sourcePath": "github/lifecycle-and-portfolio.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/lifecycle-and-portfolio.md",
+              "contentPath": "/content/pages/github/lifecycle-and-portfolio.json",
+              "previousPage": {
+                "title": "Access, Secrets and Security",
+                "route": "/books/github/pages/access-secrets-and-security"
+              },
+              "nextPage": {
+                "title": "GitHub Repository Checklist",
+                "route": "/books/github/pages/repository-checklist"
+              }
+            },
+            {
+              "title": "GitHub Repository Checklist",
+              "slug": "repository-checklist",
+              "description": "Use this checklist for a new repository, a public portfolio review or a repository that now controls production delivery.",
+              "sourcePath": "github/repository-checklist.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/repository-checklist.md",
+              "contentPath": "/content/pages/github/repository-checklist.json",
+              "previousPage": {
+                "title": "Lifecycle and Portfolio Presentation",
+                "route": "/books/github/pages/lifecycle-and-portfolio"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/github/pages/references"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "These sources describe GitHub platform features or broadly used engineering conventions. This playbook adapts them to repositories that range from public portfolio work to production delivery. Its thresholds for process, preference for concise governance and exact repository taxonomy are local conventions.",
+              "sourcePath": "github/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/github/references.md",
+              "contentPath": "/content/pages/github/references.json",
+              "previousPage": {
+                "title": "GitHub Repository Checklist",
+                "route": "/books/github/pages/repository-checklist"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure",
+      "slug": "infrastructure",
+      "description": "Platform, routing, storage and availability",
+      "sourcePath": "infrastructure/README.md",
+      "navigation": [
+        {
+          "title": "Infrastructure Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Principles and Boundaries",
+          "slug": "principles-and-boundaries"
+        },
+        {
+          "title": "Topology and Environments",
+          "slug": "topology-and-environments"
+        },
+        {
+          "title": "Networking and Edge",
+          "slug": "networking-and-edge"
+        },
+        {
+          "title": "Clusters and Orchestration",
+          "slug": "clusters-and-orchestration"
+        },
+        {
+          "title": "Storage, Backup and Recovery",
+          "slug": "storage-backup-and-recovery"
+        },
+        {
+          "title": "Provisioning and Lifecycle",
+          "slug": "provisioning-and-lifecycle"
+        },
+        {
+          "title": "Observability and Operations",
+          "slug": "observability-and-operations"
+        },
+        {
+          "title": "Reliability, Cost and Maturity",
+          "slug": "reliability-cost-and-maturity"
+        },
+        {
+          "title": "Infrastructure Checklist",
+          "slug": "infrastructure-checklist"
+        },
+        {
+          "title": "References",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "infrastructure",
+          "pages": [
+            {
+              "title": "Infrastructure Standards",
+              "slug": "overview",
+              "description": "Standards for organizing, provisioning and operating infrastructure that supports software delivery and production workloads.",
+              "sourcePath": "infrastructure/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/README.md",
+              "contentPath": "/content/pages/infrastructure/overview.json",
+              "nextPage": {
+                "title": "Principles and Boundaries",
+                "route": "/books/infrastructure/pages/principles-and-boundaries"
+              }
+            },
+            {
+              "title": "Principles and Boundaries",
+              "slug": "principles-and-boundaries",
+              "description": "Infrastructure standards should reduce operational ambiguity. They should not force a small system to mimic a large organization without the same failure, scale or compliance requirements.",
+              "sourcePath": "infrastructure/principles-and-boundaries.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/principles-and-boundaries.md",
+              "contentPath": "/content/pages/infrastructure/principles-and-boundaries.json",
+              "previousPage": {
+                "title": "Infrastructure Standards",
+                "route": "/books/infrastructure/pages/overview"
+              },
+              "nextPage": {
+                "title": "Topology and Environments",
+                "route": "/books/infrastructure/pages/topology-and-environments"
+              }
+            },
+            {
+              "title": "Topology and Environments",
+              "slug": "topology-and-environments",
+              "description": "Infrastructure topology should describe traffic paths, placement, state, administrative authority and failure domains. A diagram that only names products is insufficient for operation.",
+              "sourcePath": "infrastructure/topology-and-environments.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/topology-and-environments.md",
+              "contentPath": "/content/pages/infrastructure/topology-and-environments.json",
+              "previousPage": {
+                "title": "Principles and Boundaries",
+                "route": "/books/infrastructure/pages/principles-and-boundaries"
+              },
+              "nextPage": {
+                "title": "Networking and Edge",
+                "route": "/books/infrastructure/pages/networking-and-edge"
+              }
+            },
+            {
+              "title": "Networking and Edge",
+              "slug": "networking-and-edge",
+              "description": "Network topology should express which systems may communicate and why. A working connection is not evidence that exposure is safe.",
+              "sourcePath": "infrastructure/networking-and-edge.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/networking-and-edge.md",
+              "contentPath": "/content/pages/infrastructure/networking-and-edge.json",
+              "previousPage": {
+                "title": "Topology and Environments",
+                "route": "/books/infrastructure/pages/topology-and-environments"
+              },
+              "nextPage": {
+                "title": "Clusters and Orchestration",
+                "route": "/books/infrastructure/pages/clusters-and-orchestration"
+              }
+            },
+            {
+              "title": "Clusters and Orchestration",
+              "slug": "clusters-and-orchestration",
+              "description": "An orchestrator provides placement and reconciliation capabilities. It also creates a control plane, upgrade path, access boundary and recovery burden. Select it for operational requirements rather than portfolio appearance.",
+              "sourcePath": "infrastructure/clusters-and-orchestration.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/clusters-and-orchestration.md",
+              "contentPath": "/content/pages/infrastructure/clusters-and-orchestration.json",
+              "previousPage": {
+                "title": "Networking and Edge",
+                "route": "/books/infrastructure/pages/networking-and-edge"
+              },
+              "nextPage": {
+                "title": "Storage, Backup and Recovery",
+                "route": "/books/infrastructure/pages/storage-backup-and-recovery"
+              }
+            },
+            {
+              "title": "Storage, Backup and Recovery",
+              "slug": "storage-backup-and-recovery",
+              "description": "Durable state is where infrastructure claims become testable. Replicas and containers do not remove data ownership, consistency or restore obligations.",
+              "sourcePath": "infrastructure/storage-backup-and-recovery.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/storage-backup-and-recovery.md",
+              "contentPath": "/content/pages/infrastructure/storage-backup-and-recovery.json",
+              "previousPage": {
+                "title": "Clusters and Orchestration",
+                "route": "/books/infrastructure/pages/clusters-and-orchestration"
+              },
+              "nextPage": {
+                "title": "Provisioning and Lifecycle",
+                "route": "/books/infrastructure/pages/provisioning-and-lifecycle"
+              }
+            },
+            {
+              "title": "Provisioning and Lifecycle",
+              "slug": "provisioning-and-lifecycle",
+              "description": "Infrastructure should be provisioned so that intended state, authority, changes and recovery are reviewable. Automation is useful when it reduces drift and risk, not when it obscures who can change production.",
+              "sourcePath": "infrastructure/provisioning-and-lifecycle.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/provisioning-and-lifecycle.md",
+              "contentPath": "/content/pages/infrastructure/provisioning-and-lifecycle.json",
+              "previousPage": {
+                "title": "Storage, Backup and Recovery",
+                "route": "/books/infrastructure/pages/storage-backup-and-recovery"
+              },
+              "nextPage": {
+                "title": "Observability and Operations",
+                "route": "/books/infrastructure/pages/observability-and-operations"
+              }
+            },
+            {
+              "title": "Observability and Operations",
+              "slug": "observability-and-operations",
+              "description": "Infrastructure operation requires enough telemetry and access to distinguish application failure from network, node, storage, control-plane or provider failure. Collecting signals without an operator decision path is not operability.",
+              "sourcePath": "infrastructure/observability-and-operations.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/observability-and-operations.md",
+              "contentPath": "/content/pages/infrastructure/observability-and-operations.json",
+              "previousPage": {
+                "title": "Provisioning and Lifecycle",
+                "route": "/books/infrastructure/pages/provisioning-and-lifecycle"
+              },
+              "nextPage": {
+                "title": "Reliability, Cost and Maturity",
+                "route": "/books/infrastructure/pages/reliability-cost-and-maturity"
+              }
+            },
+            {
+              "title": "Reliability, Cost and Maturity",
+              "slug": "reliability-cost-and-maturity",
+              "description": "Infrastructure maturity is not measured by the number of technologies in use. It is measured by whether risk, reliability, recovery, cost and ownership are understood for the system being operated.",
+              "sourcePath": "infrastructure/reliability-cost-and-maturity.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/reliability-cost-and-maturity.md",
+              "contentPath": "/content/pages/infrastructure/reliability-cost-and-maturity.json",
+              "previousPage": {
+                "title": "Observability and Operations",
+                "route": "/books/infrastructure/pages/observability-and-operations"
+              },
+              "nextPage": {
+                "title": "Infrastructure Checklist",
+                "route": "/books/infrastructure/pages/infrastructure-checklist"
+              }
+            },
+            {
+              "title": "Infrastructure Checklist",
+              "slug": "infrastructure-checklist",
+              "description": "Use this checklist when creating, reviewing, promoting or materially changing infrastructure. Apply depth proportional to user impact and data value.",
+              "sourcePath": "infrastructure/infrastructure-checklist.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/infrastructure-checklist.md",
+              "contentPath": "/content/pages/infrastructure/infrastructure-checklist.json",
+              "previousPage": {
+                "title": "Reliability, Cost and Maturity",
+                "route": "/books/infrastructure/pages/reliability-cost-and-maturity"
+              },
+              "nextPage": {
+                "title": "References",
+                "route": "/books/infrastructure/pages/references"
+              }
+            },
+            {
+              "title": "References",
+              "slug": "references",
+              "description": "This section uses official platform and reliability guidance to ground operational behavior. The specific topology tiers, checklist structure and small-platform recommendations are local standards adapted for this playbook, not mandates from the cited sources.",
+              "sourcePath": "infrastructure/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/infrastructure/references.md",
+              "contentPath": "/content/pages/infrastructure/references.json",
+              "previousPage": {
+                "title": "Infrastructure Checklist",
+                "route": "/books/infrastructure/pages/infrastructure-checklist"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Naming",
+      "slug": "naming",
+      "description": "Shared resource naming conventions",
+      "sourcePath": "naming/README.md",
+      "navigation": [
+        {
+          "title": "Naming Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Core Naming Syntax",
+          "slug": "core-syntax"
+        },
+        {
+          "title": "Source Control and Artifacts",
+          "slug": "source-control-and-artifacts"
+        },
+        {
+          "title": "Automation and Environments",
+          "slug": "automation-and-environments"
+        },
+        {
+          "title": "Runtime and Infrastructure Resources",
+          "slug": "runtime-and-infrastructure"
+        },
+        {
+          "title": "Telemetry and Operations",
+          "slug": "telemetry-and-operations"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "naming",
+          "pages": [
+            {
+              "title": "Naming Standards",
+              "slug": "overview",
+              "description": "Consistent names reduce mistakes in deployment, incident response and automation. This section defines stable naming rules for repositories, delivery artifacts, runtime resources and operational telemetry.",
+              "sourcePath": "naming/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/naming/README.md",
+              "contentPath": "/content/pages/naming/overview.json",
+              "nextPage": {
+                "title": "Core Naming Syntax",
+                "route": "/books/naming/pages/core-syntax"
+              }
+            },
+            {
+              "title": "Core Naming Syntax",
+              "slug": "core-syntax",
+              "description": "This document defines the shared vocabulary. Domain-specific documents may tighten these rules when a platform imposes additional syntax.",
+              "sourcePath": "naming/core-syntax.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/naming/core-syntax.md",
+              "contentPath": "/content/pages/naming/core-syntax.json",
+              "previousPage": {
+                "title": "Naming Standards",
+                "route": "/books/naming/pages/overview"
+              },
+              "nextPage": {
+                "title": "Source Control and Artifacts",
+                "route": "/books/naming/pages/source-control-and-artifacts"
+              }
+            },
+            {
+              "title": "Source Control and Artifacts",
+              "slug": "source-control-and-artifacts",
+              "description": "These conventions cover source repositories and the immutable artifacts that move through the delivery pipeline.",
+              "sourcePath": "naming/source-control-and-artifacts.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/naming/source-control-and-artifacts.md",
+              "contentPath": "/content/pages/naming/source-control-and-artifacts.json",
+              "previousPage": {
+                "title": "Core Naming Syntax",
+                "route": "/books/naming/pages/core-syntax"
+              },
+              "nextPage": {
+                "title": "Automation and Environments",
+                "route": "/books/naming/pages/automation-and-environments"
+              }
+            },
+            {
+              "title": "Automation and Environments",
+              "slug": "automation-and-environments",
+              "description": "Automation names need to work both in configuration syntax and in the operator-facing CI/CD interface.",
+              "sourcePath": "naming/automation-and-environments.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/naming/automation-and-environments.md",
+              "contentPath": "/content/pages/naming/automation-and-environments.json",
+              "previousPage": {
+                "title": "Source Control and Artifacts",
+                "route": "/books/naming/pages/source-control-and-artifacts"
+              },
+              "nextPage": {
+                "title": "Runtime and Infrastructure Resources",
+                "route": "/books/naming/pages/runtime-and-infrastructure"
+              }
+            },
+            {
+              "title": "Runtime and Infrastructure Resources",
+              "slug": "runtime-and-infrastructure",
+              "description": "Runtime names appear in deployment commands, routing, secret grants and recovery procedures. Favor stable service purpose over implementation detail.",
+              "sourcePath": "naming/runtime-and-infrastructure.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/naming/runtime-and-infrastructure.md",
+              "contentPath": "/content/pages/naming/runtime-and-infrastructure.json",
+              "previousPage": {
+                "title": "Automation and Environments",
+                "route": "/books/naming/pages/automation-and-environments"
+              },
+              "nextPage": {
+                "title": "Telemetry and Operations",
+                "route": "/books/naming/pages/telemetry-and-operations"
+              }
+            },
+            {
+              "title": "Telemetry and Operations",
+              "slug": "telemetry-and-operations",
+              "description": "A resource name is only useful if it remains recognizable in metrics, logs, traces and alerts. Telemetry SHOULD preserve the same system and component vocabulary used by deployments.",
+              "sourcePath": "naming/telemetry-and-operations.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/naming/telemetry-and-operations.md",
+              "contentPath": "/content/pages/naming/telemetry-and-operations.json",
+              "previousPage": {
+                "title": "Runtime and Infrastructure Resources",
+                "route": "/books/naming/pages/runtime-and-infrastructure"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/naming/pages/references"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "This playbook deliberately applies a conservative shared naming subset across systems. External documents below provide platform constraints or established semantic vocabulary. Rules such as the single environment vocabulary, <system>-<component> ordering and Docker tag promotion policy are local standards adopted here for operational consistency; they are not claimed as requirements of those external projects.",
+              "sourcePath": "naming/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/naming/references.md",
+              "contentPath": "/content/pages/naming/references.json",
+              "previousPage": {
+                "title": "Telemetry and Operations",
+                "route": "/books/naming/pages/telemetry-and-operations"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Observability",
+      "slug": "observability",
+      "description": "Logging, metrics, dashboards and alerts",
+      "sourcePath": "observability/README.md",
+      "navigation": [
+        {
+          "title": "Observability Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Principles and Signal Model",
+          "slug": "principles-and-signal-model"
+        },
+        {
+          "title": "Logging and Correlation",
+          "slug": "logging-and-correlation"
+        },
+        {
+          "title": "Metrics, SLOs and Alerts",
+          "slug": "metrics-slos-and-alerts"
+        },
+        {
+          "title": "Tracing and OpenTelemetry",
+          "slug": "tracing-and-opentelemetry"
+        },
+        {
+          "title": "Dashboards and Visualization",
+          "slug": "dashboards-and-visualization"
+        },
+        {
+          "title": "Platform and Runtime Monitoring",
+          "slug": "platform-and-runtime-monitoring"
+        },
+        {
+          "title": "Pipelines, Storage and Cost",
+          "slug": "pipelines-storage-and-cost"
+        },
+        {
+          "title": "Diagnostics and Incident Workflows",
+          "slug": "diagnostics-and-incident-workflows"
+        },
+        {
+          "title": "Observability Checklist",
+          "slug": "observability-checklist"
+        },
+        {
+          "title": "References",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "observability",
+          "pages": [
+            {
+              "title": "Observability Standards",
+              "slug": "overview",
+              "description": "Standards for producing, collecting and using telemetry to operate software and infrastructure safely in production.",
+              "sourcePath": "observability/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/README.md",
+              "contentPath": "/content/pages/observability/overview.json",
+              "nextPage": {
+                "title": "Principles and Signal Model",
+                "route": "/books/observability/pages/principles-and-signal-model"
+              }
+            },
+            {
+              "title": "Principles and Signal Model",
+              "slug": "principles-and-signal-model",
+              "description": "Observability should help answer: what is failing, who is affected, what changed, why it is happening and which recovery action is safe.",
+              "sourcePath": "observability/principles-and-signal-model.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/principles-and-signal-model.md",
+              "contentPath": "/content/pages/observability/principles-and-signal-model.json",
+              "previousPage": {
+                "title": "Observability Standards",
+                "route": "/books/observability/pages/overview"
+              },
+              "nextPage": {
+                "title": "Logging and Correlation",
+                "route": "/books/observability/pages/logging-and-correlation"
+              }
+            },
+            {
+              "title": "Logging and Correlation",
+              "slug": "logging-and-correlation",
+              "description": "Logs should preserve evidence needed for diagnosis without becoming an uncontrolled copy of application data or credentials.",
+              "sourcePath": "observability/logging-and-correlation.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/logging-and-correlation.md",
+              "contentPath": "/content/pages/observability/logging-and-correlation.json",
+              "previousPage": {
+                "title": "Principles and Signal Model",
+                "route": "/books/observability/pages/principles-and-signal-model"
+              },
+              "nextPage": {
+                "title": "Metrics, SLOs and Alerts",
+                "route": "/books/observability/pages/metrics-slos-and-alerts"
+              }
+            },
+            {
+              "title": "Metrics, SLOs and Alerts",
+              "slug": "metrics-slos-and-alerts",
+              "description": "Metrics are best for rates, trends, saturation and objective evaluation. Alerts should be derived from conditions where an operator can reduce impact or prevent an imminent failure.",
+              "sourcePath": "observability/metrics-slos-and-alerts.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/metrics-slos-and-alerts.md",
+              "contentPath": "/content/pages/observability/metrics-slos-and-alerts.json",
+              "previousPage": {
+                "title": "Logging and Correlation",
+                "route": "/books/observability/pages/logging-and-correlation"
+              },
+              "nextPage": {
+                "title": "Tracing and OpenTelemetry",
+                "route": "/books/observability/pages/tracing-and-opentelemetry"
+              }
+            },
+            {
+              "title": "Tracing and OpenTelemetry",
+              "slug": "tracing-and-opentelemetry",
+              "description": "Tracing is valuable when a request crosses service, queue or provider boundaries and operators need to understand where time or failure is spent. It is not automatically required for a small single-service workload.",
+              "sourcePath": "observability/tracing-and-opentelemetry.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/tracing-and-opentelemetry.md",
+              "contentPath": "/content/pages/observability/tracing-and-opentelemetry.json",
+              "previousPage": {
+                "title": "Metrics, SLOs and Alerts",
+                "route": "/books/observability/pages/metrics-slos-and-alerts"
+              },
+              "nextPage": {
+                "title": "Dashboards and Visualization",
+                "route": "/books/observability/pages/dashboards-and-visualization"
+              }
+            },
+            {
+              "title": "Dashboards and Visualization",
+              "slug": "dashboards-and-visualization",
+              "description": "Dashboards should guide an operator from service impact to likely causes and support routine capacity or release review. A wall of unrelated graphs slows incident response.",
+              "sourcePath": "observability/dashboards-and-visualization.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/dashboards-and-visualization.md",
+              "contentPath": "/content/pages/observability/dashboards-and-visualization.json",
+              "previousPage": {
+                "title": "Tracing and OpenTelemetry",
+                "route": "/books/observability/pages/tracing-and-opentelemetry"
+              },
+              "nextPage": {
+                "title": "Platform and Runtime Monitoring",
+                "route": "/books/observability/pages/platform-and-runtime-monitoring"
+              }
+            },
+            {
+              "title": "Platform and Runtime Monitoring",
+              "slug": "platform-and-runtime-monitoring",
+              "description": "Operational visibility must cover both the behavior users depend on and the runtime layers that explain failure. Container orchestration changes which infrastructure signals matter; it does not remove application instrumentation.",
+              "sourcePath": "observability/platform-and-runtime-monitoring.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/platform-and-runtime-monitoring.md",
+              "contentPath": "/content/pages/observability/platform-and-runtime-monitoring.json",
+              "previousPage": {
+                "title": "Dashboards and Visualization",
+                "route": "/books/observability/pages/dashboards-and-visualization"
+              },
+              "nextPage": {
+                "title": "Pipelines, Storage and Cost",
+                "route": "/books/observability/pages/pipelines-storage-and-cost"
+              }
+            },
+            {
+              "title": "Pipelines, Storage and Cost",
+              "slug": "pipelines-storage-and-cost",
+              "description": "An observability pipeline is production infrastructure. If it fails silently, operators may lose evidence at the same time a workload fails.",
+              "sourcePath": "observability/pipelines-storage-and-cost.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/pipelines-storage-and-cost.md",
+              "contentPath": "/content/pages/observability/pipelines-storage-and-cost.json",
+              "previousPage": {
+                "title": "Platform and Runtime Monitoring",
+                "route": "/books/observability/pages/platform-and-runtime-monitoring"
+              },
+              "nextPage": {
+                "title": "Diagnostics and Incident Workflows",
+                "route": "/books/observability/pages/diagnostics-and-incident-workflows"
+              }
+            },
+            {
+              "title": "Diagnostics and Incident Workflows",
+              "slug": "diagnostics-and-incident-workflows",
+              "description": "Observability proves its value during change, degradation and incidents. Diagnostics should direct investigation from symptom to cause without random production mutation.",
+              "sourcePath": "observability/diagnostics-and-incident-workflows.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/diagnostics-and-incident-workflows.md",
+              "contentPath": "/content/pages/observability/diagnostics-and-incident-workflows.json",
+              "previousPage": {
+                "title": "Pipelines, Storage and Cost",
+                "route": "/books/observability/pages/pipelines-storage-and-cost"
+              },
+              "nextPage": {
+                "title": "Observability Checklist",
+                "route": "/books/observability/pages/observability-checklist"
+              }
+            },
+            {
+              "title": "Observability Checklist",
+              "slug": "observability-checklist",
+              "description": "Use this checklist for a new deployed service, a monitoring stack change or a production readiness review.",
+              "sourcePath": "observability/observability-checklist.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/observability-checklist.md",
+              "contentPath": "/content/pages/observability/observability-checklist.json",
+              "previousPage": {
+                "title": "Diagnostics and Incident Workflows",
+                "route": "/books/observability/pages/diagnostics-and-incident-workflows"
+              },
+              "nextPage": {
+                "title": "References",
+                "route": "/books/observability/pages/references"
+              }
+            },
+            {
+              "title": "References",
+              "slug": "references",
+              "description": "This section uses primary operational and tool documentation for signal, query, correlation and alerting behavior. The particular document split, baseline stack examples and maturity decisions are local playbook conventions, not mandatory external frameworks.",
+              "sourcePath": "observability/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/observability/references.md",
+              "contentPath": "/content/pages/observability/references.json",
+              "previousPage": {
+                "title": "Observability Checklist",
+                "route": "/books/observability/pages/observability-checklist"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Repositories",
+      "slug": "repositories",
+      "description": "Repository organization standards",
+      "sourcePath": "repositories/README.md",
+      "navigation": [
+        {
+          "title": "Repository Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Principles and Boundaries",
+          "slug": "principles-and-boundaries"
+        },
+        {
+          "title": "Monorepo and Multirepo",
+          "slug": "monorepo-and-multirepo"
+        },
+        {
+          "title": "Repository Types",
+          "slug": "repository-types"
+        },
+        {
+          "title": "Structure and Documentation",
+          "slug": "structure-and-documentation"
+        },
+        {
+          "title": "Visibility and Portfolio",
+          "slug": "visibility-and-portfolio"
+        },
+        {
+          "title": "Ownership and Lifecycle",
+          "slug": "ownership-and-lifecycle"
+        },
+        {
+          "title": "Repository Checklist",
+          "slug": "repository-checklist"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "repositories",
+          "pages": [
+            {
+              "title": "Repository Standards",
+              "slug": "overview",
+              "description": "Standards for choosing repository boundaries, organizing content and governing project lifecycles across software, infrastructure, platform work and public portfolio material.",
+              "sourcePath": "repositories/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/README.md",
+              "contentPath": "/content/pages/repositories/overview.json",
+              "nextPage": {
+                "title": "Principles and Boundaries",
+                "route": "/books/repositories/pages/principles-and-boundaries"
+              }
+            },
+            {
+              "title": "Principles and Boundaries",
+              "slug": "principles-and-boundaries",
+              "description": "Repository boundaries influence who can change a system, how it is released, what it exposes publicly and how easily an operator can discover the relevant documentation during a problem.",
+              "sourcePath": "repositories/principles-and-boundaries.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/principles-and-boundaries.md",
+              "contentPath": "/content/pages/repositories/principles-and-boundaries.json",
+              "previousPage": {
+                "title": "Repository Standards",
+                "route": "/books/repositories/pages/overview"
+              },
+              "nextPage": {
+                "title": "Monorepo and Multirepo",
+                "route": "/books/repositories/pages/monorepo-and-multirepo"
+              }
+            },
+            {
+              "title": "Monorepo and Multirepo",
+              "slug": "monorepo-and-multirepo",
+              "description": "Monorepo versus multirepo is an ownership and change-management decision, not a proxy for architectural sophistication. Either model can support monoliths, microservices, infrastructure and platform delivery.",
+              "sourcePath": "repositories/monorepo-and-multirepo.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/monorepo-and-multirepo.md",
+              "contentPath": "/content/pages/repositories/monorepo-and-multirepo.json",
+              "previousPage": {
+                "title": "Principles and Boundaries",
+                "route": "/books/repositories/pages/principles-and-boundaries"
+              },
+              "nextPage": {
+                "title": "Repository Types",
+                "route": "/books/repositories/pages/repository-types"
+              }
+            },
+            {
+              "title": "Repository Types",
+              "slug": "repository-types",
+              "description": "A clear repository taxonomy improves discovery and prevents fundamentally different assets from being governed as if they share the same lifecycle.",
+              "sourcePath": "repositories/repository-types.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/repository-types.md",
+              "contentPath": "/content/pages/repositories/repository-types.json",
+              "previousPage": {
+                "title": "Monorepo and Multirepo",
+                "route": "/books/repositories/pages/monorepo-and-multirepo"
+              },
+              "nextPage": {
+                "title": "Structure and Documentation",
+                "route": "/books/repositories/pages/structure-and-documentation"
+              }
+            },
+            {
+              "title": "Structure and Documentation",
+              "slug": "structure-and-documentation",
+              "description": "Repository structure should help a maintainer find code, delivery controls, decisions and operations without learning a unique layout for every project.",
+              "sourcePath": "repositories/structure-and-documentation.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/structure-and-documentation.md",
+              "contentPath": "/content/pages/repositories/structure-and-documentation.json",
+              "previousPage": {
+                "title": "Repository Types",
+                "route": "/books/repositories/pages/repository-types"
+              },
+              "nextPage": {
+                "title": "Visibility and Portfolio",
+                "route": "/books/repositories/pages/visibility-and-portfolio"
+              }
+            },
+            {
+              "title": "Visibility and Portfolio",
+              "slug": "visibility-and-portfolio",
+              "description": "Repository visibility changes who can see source, history, workflows, issues, artifacts and documentation. Treat visibility as part of repository design, not a last-minute GitHub setting.",
+              "sourcePath": "repositories/visibility-and-portfolio.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/visibility-and-portfolio.md",
+              "contentPath": "/content/pages/repositories/visibility-and-portfolio.json",
+              "previousPage": {
+                "title": "Structure and Documentation",
+                "route": "/books/repositories/pages/structure-and-documentation"
+              },
+              "nextPage": {
+                "title": "Ownership and Lifecycle",
+                "route": "/books/repositories/pages/ownership-and-lifecycle"
+              }
+            },
+            {
+              "title": "Ownership and Lifecycle",
+              "slug": "ownership-and-lifecycle",
+              "description": "A repository with no owner eventually accumulates broken workflows, outdated dependencies, unanswered security findings and unclear production authority. Ownership can be lightweight, but it must be explicit.",
+              "sourcePath": "repositories/ownership-and-lifecycle.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/ownership-and-lifecycle.md",
+              "contentPath": "/content/pages/repositories/ownership-and-lifecycle.json",
+              "previousPage": {
+                "title": "Visibility and Portfolio",
+                "route": "/books/repositories/pages/visibility-and-portfolio"
+              },
+              "nextPage": {
+                "title": "Repository Checklist",
+                "route": "/books/repositories/pages/repository-checklist"
+              }
+            },
+            {
+              "title": "Repository Checklist",
+              "slug": "repository-checklist",
+              "description": "Use this checklist when creating a repository, making it public, adding production responsibility or retiring it.",
+              "sourcePath": "repositories/repository-checklist.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/repository-checklist.md",
+              "contentPath": "/content/pages/repositories/repository-checklist.json",
+              "previousPage": {
+                "title": "Ownership and Lifecycle",
+                "route": "/books/repositories/pages/ownership-and-lifecycle"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/repositories/pages/references"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "The sources below define GitHub platform behavior or provide concrete experience with repository and decision-management models. This playbook adapts them into a proportional repository standard. Its repository taxonomy, default boundaries and portfolio curation rules are local conventions rather than universal requirements.",
+              "sourcePath": "repositories/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/repositories/references.md",
+              "contentPath": "/content/pages/repositories/references.json",
+              "previousPage": {
+                "title": "Repository Checklist",
+                "route": "/books/repositories/pages/repository-checklist"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Runbooks",
+      "slug": "runbooks",
+      "description": "Operational and recovery procedures",
+      "sourcePath": "runbooks/README.md",
+      "navigation": [
+        {
+          "title": "Operational Runbooks",
+          "slug": "overview"
+        },
+        {
+          "title": "Principles and Readiness",
+          "slug": "principles-and-readiness"
+        },
+        {
+          "title": "Incident Response and Communication",
+          "slug": "incident-response-and-communication"
+        },
+        {
+          "title": "Troubleshooting Methodology",
+          "slug": "troubleshooting-methodology"
+        },
+        {
+          "title": "Deployment Rollback and Service Recovery",
+          "slug": "deployment-rollback-and-service-recovery"
+        },
+        {
+          "title": "Containers and Orchestration",
+          "slug": "containers-and-orchestration"
+        },
+        {
+          "title": "Network, Edge, DNS and TLS",
+          "slug": "network-edge-dns-and-tls"
+        },
+        {
+          "title": "Data and Infrastructure Recovery",
+          "slug": "data-and-infrastructure-recovery"
+        },
+        {
+          "title": "Security and Delivery Recovery",
+          "slug": "security-and-delivery-recovery"
+        },
+        {
+          "title": "Commands and Safe Execution",
+          "slug": "commands-and-safe-execution"
+        },
+        {
+          "title": "Templates and Checklists",
+          "slug": "templates-and-checklists"
+        },
+        {
+          "title": "References",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "runbooks",
+          "pages": [
+            {
+              "title": "Operational Runbooks",
+              "slug": "overview",
+              "description": "Repeatable procedures for investigating, mitigating and recovering production services and their supporting platform infrastructure.",
+              "sourcePath": "runbooks/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/README.md",
+              "contentPath": "/content/pages/runbooks/overview.json",
+              "nextPage": {
+                "title": "Principles and Readiness",
+                "route": "/books/runbooks/pages/principles-and-readiness"
+              }
+            },
+            {
+              "title": "Principles and Readiness",
+              "slug": "principles-and-readiness",
+              "description": "Runbooks are operating code written for a human or an automation system. A procedure that is unclear, unsafe or obsolete during failure increases outage duration and can create a second incident.",
+              "sourcePath": "runbooks/principles-and-readiness.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/principles-and-readiness.md",
+              "contentPath": "/content/pages/runbooks/principles-and-readiness.json",
+              "previousPage": {
+                "title": "Operational Runbooks",
+                "route": "/books/runbooks/pages/overview"
+              },
+              "nextPage": {
+                "title": "Incident Response and Communication",
+                "route": "/books/runbooks/pages/incident-response-and-communication"
+              }
+            },
+            {
+              "title": "Incident Response and Communication",
+              "slug": "incident-response-and-communication",
+              "description": "Incident response should minimize user impact while preserving enough information to restore service safely and prevent repeat failure.",
+              "sourcePath": "runbooks/incident-response-and-communication.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/incident-response-and-communication.md",
+              "contentPath": "/content/pages/runbooks/incident-response-and-communication.json",
+              "previousPage": {
+                "title": "Principles and Readiness",
+                "route": "/books/runbooks/pages/principles-and-readiness"
+              },
+              "nextPage": {
+                "title": "Troubleshooting Methodology",
+                "route": "/books/runbooks/pages/troubleshooting-methodology"
+              }
+            },
+            {
+              "title": "Troubleshooting Methodology",
+              "slug": "troubleshooting-methodology",
+              "description": "Troubleshooting is a controlled reduction of uncertainty. The goal is not to try commands until the symptom disappears; it is to identify the affected boundary and select a safe corrective action.",
+              "sourcePath": "runbooks/troubleshooting-methodology.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/troubleshooting-methodology.md",
+              "contentPath": "/content/pages/runbooks/troubleshooting-methodology.json",
+              "previousPage": {
+                "title": "Incident Response and Communication",
+                "route": "/books/runbooks/pages/incident-response-and-communication"
+              },
+              "nextPage": {
+                "title": "Deployment Rollback and Service Recovery",
+                "route": "/books/runbooks/pages/deployment-rollback-and-service-recovery"
+              }
+            },
+            {
+              "title": "Deployment Rollback and Service Recovery",
+              "slug": "deployment-rollback-and-service-recovery",
+              "description": "Use this runbook when a service degrades after a deployment or when a known good artifact can restore behavior. Rollback reverses application release state; it does not automatically reverse data migrations or infrastructure changes.",
+              "sourcePath": "runbooks/deployment-rollback-and-service-recovery.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/deployment-rollback-and-service-recovery.md",
+              "contentPath": "/content/pages/runbooks/deployment-rollback-and-service-recovery.json",
+              "previousPage": {
+                "title": "Troubleshooting Methodology",
+                "route": "/books/runbooks/pages/troubleshooting-methodology"
+              },
+              "nextPage": {
+                "title": "Containers and Orchestration",
+                "route": "/books/runbooks/pages/containers-and-orchestration"
+              }
+            },
+            {
+              "title": "Containers and Orchestration",
+              "slug": "containers-and-orchestration",
+              "description": "Use this runbook when workload failure appears at container, node or orchestrator level. Diagnose user impact and deployment state before restarting or rescheduling processes.",
+              "sourcePath": "runbooks/containers-and-orchestration.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/containers-and-orchestration.md",
+              "contentPath": "/content/pages/runbooks/containers-and-orchestration.json",
+              "previousPage": {
+                "title": "Deployment Rollback and Service Recovery",
+                "route": "/books/runbooks/pages/deployment-rollback-and-service-recovery"
+              },
+              "nextPage": {
+                "title": "Network, Edge, DNS and TLS",
+                "route": "/books/runbooks/pages/network-edge-dns-and-tls"
+              }
+            },
+            {
+              "title": "Network, Edge, DNS and TLS",
+              "slug": "network-edge-dns-and-tls",
+              "description": "Use this runbook when a service is healthy internally but unreachable, fails TLS validation or cannot communicate through expected network paths.",
+              "sourcePath": "runbooks/network-edge-dns-and-tls.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/network-edge-dns-and-tls.md",
+              "contentPath": "/content/pages/runbooks/network-edge-dns-and-tls.json",
+              "previousPage": {
+                "title": "Containers and Orchestration",
+                "route": "/books/runbooks/pages/containers-and-orchestration"
+              },
+              "nextPage": {
+                "title": "Data and Infrastructure Recovery",
+                "route": "/books/runbooks/pages/data-and-infrastructure-recovery"
+              }
+            },
+            {
+              "title": "Data and Infrastructure Recovery",
+              "slug": "data-and-infrastructure-recovery",
+              "description": "Stateful and infrastructure recovery procedures carry higher risk than application restart or image rollback. Stop and escalate when the data version, recovery target or destructive consequence is unclear.",
+              "sourcePath": "runbooks/data-and-infrastructure-recovery.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/data-and-infrastructure-recovery.md",
+              "contentPath": "/content/pages/runbooks/data-and-infrastructure-recovery.json",
+              "previousPage": {
+                "title": "Network, Edge, DNS and TLS",
+                "route": "/books/runbooks/pages/network-edge-dns-and-tls"
+              },
+              "nextPage": {
+                "title": "Security and Delivery Recovery",
+                "route": "/books/runbooks/pages/security-and-delivery-recovery"
+              }
+            },
+            {
+              "title": "Security and Delivery Recovery",
+              "slug": "security-and-delivery-recovery",
+              "description": "Operational incidents frequently intersect with credentials, delivery authority or artifact trust. Contain active security risk before optimizing availability when a compromised path could continue causing harm.",
+              "sourcePath": "runbooks/security-and-delivery-recovery.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/security-and-delivery-recovery.md",
+              "contentPath": "/content/pages/runbooks/security-and-delivery-recovery.json",
+              "previousPage": {
+                "title": "Data and Infrastructure Recovery",
+                "route": "/books/runbooks/pages/data-and-infrastructure-recovery"
+              },
+              "nextPage": {
+                "title": "Commands and Safe Execution",
+                "route": "/books/runbooks/pages/commands-and-safe-execution"
+              }
+            },
+            {
+              "title": "Commands and Safe Execution",
+              "slug": "commands-and-safe-execution",
+              "description": "Commands in runbooks are examples that must be adapted to the known environment, ownership boundary and access policy. Begin with read-only inspection; mark mutating actions explicitly in incident notes.",
+              "sourcePath": "runbooks/commands-and-safe-execution.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/commands-and-safe-execution.md",
+              "contentPath": "/content/pages/runbooks/commands-and-safe-execution.json",
+              "previousPage": {
+                "title": "Security and Delivery Recovery",
+                "route": "/books/runbooks/pages/security-and-delivery-recovery"
+              },
+              "nextPage": {
+                "title": "Templates and Checklists",
+                "route": "/books/runbooks/pages/templates-and-checklists"
+              }
+            },
+            {
+              "title": "Templates and Checklists",
+              "slug": "templates-and-checklists",
+              "description": "These templates are intentionally concise. Extend them for a specific service when state, compliance, user communication or platform complexity requires it.",
+              "sourcePath": "runbooks/templates-and-checklists.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/templates-and-checklists.md",
+              "contentPath": "/content/pages/runbooks/templates-and-checklists.json",
+              "previousPage": {
+                "title": "Commands and Safe Execution",
+                "route": "/books/runbooks/pages/commands-and-safe-execution"
+              },
+              "nextPage": {
+                "title": "References",
+                "route": "/books/runbooks/pages/references"
+              }
+            },
+            {
+              "title": "References",
+              "slug": "references",
+              "description": "This section uses official reliability, operations and platform documentation to establish safe operational practices. Severity labels, document layout, example commands and lightweight workflows are local conventions adapted for this playbook.",
+              "sourcePath": "runbooks/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/runbooks/references.md",
+              "contentPath": "/content/pages/runbooks/references.json",
+              "previousPage": {
+                "title": "Templates and Checklists",
+                "route": "/books/runbooks/pages/templates-and-checklists"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "slug": "security",
+      "description": "Secrets, access and credential practices",
+      "sourcePath": "security/README.md",
+      "navigation": [
+        {
+          "title": "Security Standards",
+          "slug": "overview"
+        },
+        {
+          "title": "Secrets and Credentials",
+          "slug": "secrets-and-credentials"
+        },
+        {
+          "title": "Identity and Access",
+          "slug": "identity-and-access"
+        },
+        {
+          "title": "CI/CD and Automation Security",
+          "slug": "ci-cd-and-automation"
+        },
+        {
+          "title": "Containers and Supply Chain",
+          "slug": "containers-and-supply-chain"
+        },
+        {
+          "title": "Repository and Data Hygiene",
+          "slug": "repository-and-data-hygiene"
+        },
+        {
+          "title": "Security Incident Response",
+          "slug": "incident-response"
+        },
+        {
+          "title": "Security Baseline Checklist",
+          "slug": "baseline-checklist"
+        },
+        {
+          "title": "References and Adoption Notes",
+          "slug": "references"
+        }
+      ],
+      "chapters": [
+        {
+          "title": "Core Documents",
+          "slug": "core-documents",
+          "description": "Core Documents documents",
+          "sourcePath": "security",
+          "pages": [
+            {
+              "title": "Security Standards",
+              "slug": "overview",
+              "description": "Practical controls for protecting source code, delivery pipelines, credentials and containerized workloads without turning small engineering projects into a compliance program.",
+              "sourcePath": "security/README.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/README.md",
+              "contentPath": "/content/pages/security/overview.json",
+              "nextPage": {
+                "title": "Secrets and Credentials",
+                "route": "/books/security/pages/secrets-and-credentials"
+              }
+            },
+            {
+              "title": "Secrets and Credentials",
+              "slug": "secrets-and-credentials",
+              "description": "Secrets include API tokens, passwords, private keys, signing keys, connection strings containing credentials, webhook secrets and cloud access material. Their operational value is access, so they require lifecycle management rather than careful file naming alone.",
+              "sourcePath": "security/secrets-and-credentials.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/secrets-and-credentials.md",
+              "contentPath": "/content/pages/security/secrets-and-credentials.json",
+              "previousPage": {
+                "title": "Security Standards",
+                "route": "/books/security/pages/overview"
+              },
+              "nextPage": {
+                "title": "Identity and Access",
+                "route": "/books/security/pages/identity-and-access"
+              }
+            },
+            {
+              "title": "Identity and Access",
+              "slug": "identity-and-access",
+              "description": "Access design should make normal work easy while making broad or unexplained access unusual. A useful least-privilege policy answers who or what needs access, to which environment, for which action and for how long.",
+              "sourcePath": "security/identity-and-access.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/identity-and-access.md",
+              "contentPath": "/content/pages/security/identity-and-access.json",
+              "previousPage": {
+                "title": "Secrets and Credentials",
+                "route": "/books/security/pages/secrets-and-credentials"
+              },
+              "nextPage": {
+                "title": "CI/CD and Automation Security",
+                "route": "/books/security/pages/ci-cd-and-automation"
+              }
+            },
+            {
+              "title": "CI/CD and Automation Security",
+              "slug": "ci-cd-and-automation",
+              "description": "Delivery pipelines sit between source code and production authority. Treat a workflow that can publish an image or deploy production as privileged code.",
+              "sourcePath": "security/ci-cd-and-automation.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/ci-cd-and-automation.md",
+              "contentPath": "/content/pages/security/ci-cd-and-automation.json",
+              "previousPage": {
+                "title": "Identity and Access",
+                "route": "/books/security/pages/identity-and-access"
+              },
+              "nextPage": {
+                "title": "Containers and Supply Chain",
+                "route": "/books/security/pages/containers-and-supply-chain"
+              }
+            },
+            {
+              "title": "Containers and Supply Chain",
+              "slug": "containers-and-supply-chain",
+              "description": "Container security has two parts: build trustworthy artifacts and run them with limited authority. A minimal image is useful, but it is not a substitute for provenance, patching and runtime isolation.",
+              "sourcePath": "security/containers-and-supply-chain.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/containers-and-supply-chain.md",
+              "contentPath": "/content/pages/security/containers-and-supply-chain.json",
+              "previousPage": {
+                "title": "CI/CD and Automation Security",
+                "route": "/books/security/pages/ci-cd-and-automation"
+              },
+              "nextPage": {
+                "title": "Repository and Data Hygiene",
+                "route": "/books/security/pages/repository-and-data-hygiene"
+              }
+            },
+            {
+              "title": "Repository and Data Hygiene",
+              "slug": "repository-and-data-hygiene",
+              "description": "Security failures in engineering repositories are often mundane: a committed .env file, a debug log containing a token, a production export uploaded as a demo fixture or a portfolio screenshot showing internal infrastructure.",
+              "sourcePath": "security/repository-and-data-hygiene.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/repository-and-data-hygiene.md",
+              "contentPath": "/content/pages/security/repository-and-data-hygiene.json",
+              "previousPage": {
+                "title": "Containers and Supply Chain",
+                "route": "/books/security/pages/containers-and-supply-chain"
+              },
+              "nextPage": {
+                "title": "Security Incident Response",
+                "route": "/books/security/pages/incident-response"
+              }
+            },
+            {
+              "title": "Security Incident Response",
+              "slug": "incident-response",
+              "description": "This procedure is intentionally lightweight. It is meant to make the first hour of a likely credential or access incident predictable for small and mid-sized engineering workloads.",
+              "sourcePath": "security/incident-response.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/incident-response.md",
+              "contentPath": "/content/pages/security/incident-response.json",
+              "previousPage": {
+                "title": "Repository and Data Hygiene",
+                "route": "/books/security/pages/repository-and-data-hygiene"
+              },
+              "nextPage": {
+                "title": "Security Baseline Checklist",
+                "route": "/books/security/pages/baseline-checklist"
+              }
+            },
+            {
+              "title": "Security Baseline Checklist",
+              "slug": "baseline-checklist",
+              "description": "Use this checklist when creating a project, enabling CI/CD, preparing a public portfolio release or reviewing a persistent deployment. Not every advanced item is required; every unchecked baseline item needs remediation or an explicit exception.",
+              "sourcePath": "security/baseline-checklist.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/baseline-checklist.md",
+              "contentPath": "/content/pages/security/baseline-checklist.json",
+              "previousPage": {
+                "title": "Security Incident Response",
+                "route": "/books/security/pages/incident-response"
+              },
+              "nextPage": {
+                "title": "References and Adoption Notes",
+                "route": "/books/security/pages/references"
+              }
+            },
+            {
+              "title": "References and Adoption Notes",
+              "slug": "references",
+              "description": "The sources below supply authoritative platform behavior or widely used security guidance. This playbook adapts them into a practical baseline for containerized projects, automation pipelines and public portfolio workloads. Its control levels, naming examples and recommended minimum implementation are local conventions, not certification claims.",
+              "sourcePath": "security/references.md",
+              "sourceUrl": "https://github.com/robmoraes/engineering-playbook/blob/main/security/references.md",
+              "contentPath": "/content/pages/security/references.json",
+              "previousPage": {
+                "title": "Security Baseline Checklist",
+                "route": "/books/security/pages/baseline-checklist"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

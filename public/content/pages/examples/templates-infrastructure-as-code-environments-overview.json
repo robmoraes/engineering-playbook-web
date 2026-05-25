@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/infrastructure-as-code/environments/README.md",
+  "contentHtml": "<p>Future composition examples for lab, staging and production-oriented\nenvironments with boundaries, access, state and cost assumptions stated.</p>\n"
+}

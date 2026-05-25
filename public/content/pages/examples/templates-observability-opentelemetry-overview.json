@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/observability/opentelemetry/README.md",
+  "contentHtml": "<p>Future collector and instrumentation configuration templates showing stable\nresource identity, context propagation, export and sampling behavior.</p>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/observability/loki/README.md",
+  "contentHtml": "<p>Future log ingestion, label and retention templates designed for structured\nlogs, low-cardinality indexing and protected operational access.</p>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/delivery/github-actions/README.md",
+  "contentHtml": "<p>Future reusable workflow and workflow-template examples covering permissions,\ncredentials, validation, artifact identity and environment protection.</p>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/containers/healthchecks/README.md",
+  "contentHtml": "<p>Future health behavior templates covering liveness, readiness and routed\nverification without exposing sensitive dependency detail.</p>\n"
+}

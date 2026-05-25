@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/infrastructure-as-code/topologies/README.md",
+  "contentHtml": "<p>Future provisioning examples paired with runtime topology, availability,\nnetworking, storage and recovery rationale.</p>\n"
+}

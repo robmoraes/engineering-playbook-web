@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/operational-scenarios/network-and-tls/README.md",
+  "contentHtml": "<p>Future investigation examples for DNS failures, certificate renewal or\nhostname errors, reverse proxy routing failures and internal service\nconnectivity.</p>\n<p>Scenarios should validate the actual client-facing path and use synthetic\ndomains or endpoints safe for publication.</p>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/containers/compose/README.md",
+  "contentHtml": "<p>Future Compose-based development or deliberately small deployment templates.\nEach addition must distinguish local convenience from production operating\nassumptions.</p>\n"
+}

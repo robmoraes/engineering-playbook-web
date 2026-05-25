@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/operational-scenarios/deployment-and-rollback/README.md",
+  "contentHtml": "<p>Future scenarios for failing releases, immutable artifact verification,\ndeployment health failure, controlled rollback and post-recovery observation.</p>\n<p>Scenarios should link to\n<a href=\"/books/runbooks/pages/deployment-rollback-and-service-recovery\">Deployment Rollback and Service Recovery</a>\nand identify when database or configuration changes make rollback unsafe.</p>\n"
+}

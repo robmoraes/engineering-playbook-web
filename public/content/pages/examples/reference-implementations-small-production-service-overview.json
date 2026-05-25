@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/reference-implementations/small-production-service/README.md",
+  "contentHtml": "<p>Integrated examples for a deliberately limited live service, such as a\ncontainerized API behind managed or operated ingress with durable data,\ndelivery automation, monitoring and documented recovery.</p>\n<p>Future implementations must state accepted single points of failure, backup\nand access strategy, cost assumptions and the conditions that would require a\nmore resilient topology.</p>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/platform/swarm/README.md",
+  "contentHtml": "<p>Future stack and service definitions for Swarm deployments, including overlay\nnetworks, secrets, placement, rolling updates and manager-authority cautions.</p>\n"
+}

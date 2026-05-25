@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/security/environment-configuration/README.md",
+  "contentHtml": "<p>Future safe configuration-contract examples such as <code>.env.example</code> files with\nplaceholders only and explicit environment separation expectations.</p>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "sourcePath": "examples/templates/containers/networking-and-storage/README.md",
+  "contentHtml": "<p>Future templates for intentional container networks, volumes and durable-state\nboundaries, with backup and portability limitations identified.</p>\n"
+}
