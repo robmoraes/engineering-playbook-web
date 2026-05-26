@@ -7,14 +7,16 @@ import { extract } from 'tar'
 
 const outputFile = resolve('src/content/generated/manifest.json')
 const outputPagesDirectory = resolve('public/content/pages')
+const configuredSource = JSON.parse(await readFile(resolve('content-source.json'), 'utf8'))
+const outputSearchIndexFile = resolve('public/content/search-index.json')
 const repositoryUrl = (
-  process.env.CONTENT_REPOSITORY_URL || 'https://github.com/robmoraes/engineering-playbook'
+  process.env.CONTENT_REPOSITORY_URL || configuredSource.repositoryUrl
 ).replace(/\.git$/, '')
-const repositoryRef = process.env.CONTENT_REPOSITORY_REF || 'main'
+const repositoryRef = process.env.CONTENT_REPOSITORY_REF || configuredSource.ref
 const localSourceDirectory = process.env.CONTENT_SOURCE_DIR
 const repositoryArchiveUrl =
   process.env.CONTENT_ARCHIVE_URL ||
-  `${repositoryUrl}/archive/refs/heads/${encodeURIComponent(repositoryRef)}.tar.gz`
+  `${repositoryUrl}/archive/${encodeURIComponent(repositoryRef)}.tar.gz`
 
 const allowedHtml = {
   allowedTags: [
@@ -101,6 +103,19 @@ function titleFromMarkdown(markdown, fallback) {
 
 function withoutDocumentTitle(markdown) {
   return markdown.replace(/^#\s+.+?(?:\r?\n){1,2}/, '')
+}
+
+function plainTextFromMarkdown(markdown) {
+  const rendered = marked.parse(withoutDocumentTitle(markdown))
+
+  return sanitizeHtml(rendered, { allowedTags: [], allowedAttributes: {} })
+    .replaceAll('&amp;', '&')
+    .replaceAll('&lt;', '<')
+    .replaceAll('&gt;', '>')
+    .replaceAll('&quot;', '"')
+    .replaceAll('&#39;', "'")
+    .replace(/\s+/g, ' ')
+    .trim()
 }
 
 function pageSlug(relativePath) {
@@ -380,6 +395,7 @@ async function buildManifest(rootDirectory, sourceMode) {
   const catalog = await createPageCatalog(rootDirectory, navigationBooks)
   const routeBySourcePath = new Map(catalog.map((page) => [page.sourcePath, page.route]))
   const pageAssets = []
+  const searchIndex = []
 
   const books = navigationBooks.map((navigationBook) => {
     const pages = catalog.filter((page) => page.bookSlug === navigationBook.slug)
@@ -415,6 +431,15 @@ async function buildManifest(rootDirectory, sourceMode) {
 
       orderedPages.push(pageMetadata)
       chaptersBySlug.get(chapterSlug).pages.push(pageMetadata)
+
+      searchIndex.push({
+        bookTitle: navigationBook.title,
+        bookSlug: navigationBook.slug,
+        title: pageMetadata.title,
+        description: pageMetadata.description,
+        text: plainTextFromMarkdown(page.markdown),
+        route: page.route,
+      })
 
       pageAssets.push({
         outputPath: join(outputPagesDirectory, navigationBook.slug, `${page.slug}.json`),
@@ -472,6 +497,7 @@ async function buildManifest(rootDirectory, sourceMode) {
       books,
     },
     pageAssets,
+    searchIndex,
   }
 }
 
@@ -479,7 +505,10 @@ async function syncContent() {
   const source = await getSource()
 
   try {
-    const { manifest, pageAssets } = await buildManifest(source.rootDirectory, source.sourceMode)
+    const { manifest, pageAssets, searchIndex } = await buildManifest(
+      source.rootDirectory,
+      source.sourceMode,
+    )
     const pageCount = manifest.books.reduce(
       (total, book) =>
         total +
@@ -491,6 +520,7 @@ async function syncContent() {
     await rm(outputPagesDirectory, { recursive: true, force: true })
     await mkdir(outputPagesDirectory, { recursive: true })
     await writeFile(outputFile, `${JSON.stringify(manifest, null, 2)}\n`)
+    await writeFile(outputSearchIndexFile, `${JSON.stringify(searchIndex, null, 2)}\n`)
 
     for (const asset of pageAssets) {
       await mkdir(dirname(asset.outputPath), { recursive: true })
@@ -501,6 +531,7 @@ async function syncContent() {
       `Content generated: ${manifest.books.length} books and ${pageCount} static pages from ${source.sourceMode}.`,
     )
     console.log(`Output: ${outputFile}`)
+    console.log(`Search index: ${outputSearchIndexFile}`)
   } finally {
     await source.cleanup()
   }

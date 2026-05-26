@@ -22,12 +22,12 @@ delivery runtime.
 
 This application deliberately does **not** fetch GitHub or another content API
 in the browser. The build-time synchronization step downloads the public
-`engineering-playbook` source snapshot from GitHub, reads its root navigation,
+configured `engineering-playbook` source snapshot from GitHub, reads its root navigation,
 converts the selected Markdown documents to sanitized HTML and generates JSON
 assets that are served with the compiled application:
 
 ```text
-github.com/robmoraes/engineering-playbook (main archive)
+content-source.json -> github.com/robmoraes/engineering-playbook (immutable ref archive)
         |
         | yarn content:sync (build time only)
         v
@@ -52,13 +52,22 @@ The lightweight manifest is bundled for navigation metadata. Rendered document
 JSON is requested only from the application's own static assets when a reader
 opens a page; it is never fetched from GitHub by the browser.
 
+Search follows the same static-delivery boundary. The build generates a
+plain-text search index from the source Markdown, and the browser requests that
+single index only after the search dialog is opened. Queries are evaluated
+locally against titles, descriptions and document text with case-insensitive
+and accent-insensitive matching.
+
 ## Application Structure
 
 ```text
 docker/nginx/default.conf      static web-server and SPA routing policy
 scripts/sync-content.mjs       GitHub snapshot import and Markdown generation
+content-source.json             reviewed documentation source revision
 src/content/generated/         generated navigation manifest
 public/content/pages/          generated static document payloads
+public/content/search-index.json generated on-demand search index
+src/components/                reader interaction components
 src/layouts/                   header, navigation and footer shell
 src/pages/                     home, document reader and not-found screens
 src/router/                    SPA routes
@@ -72,6 +81,7 @@ The first UI version supplies:
 
 - a portfolio-oriented landing page;
 - ordered content navigation grouped by books;
+- modal search over the generated static document snapshot;
 - static document rendering at `/books/:bookSlug/pages/:pageSlug`;
 - previous and next document navigation derived from source indexes;
 - a not-found screen;
@@ -94,9 +104,11 @@ The same synchronization command is available through npm when required:
 npm run content:sync
 ```
 
-By default, `content:sync` downloads the public `main` branch archive from
-GitHub using the Node-based generator; no local Git checkout or system archive
-tool is required. Local source can be used while authoring both repositories:
+By default, `content:sync` downloads the immutable public documentation ref
+declared in `content-source.json` using the Node-based generator; no local Git
+checkout or system archive tool is required. Published builds use that
+committed ref so their documentation input is reviewable and repeatable. Local
+source can be used while authoring both repositories:
 
 ```bash
 CONTENT_SOURCE_DIR=../engineering-playbook yarn content:sync
@@ -106,11 +118,13 @@ The remote source and ref are configurable for build validation or preview:
 
 ```bash
 CONTENT_REPOSITORY_URL=https://github.com/robmoraes/engineering-playbook \
-CONTENT_REPOSITORY_REF=main \
+CONTENT_REPOSITORY_REF=v0.2.0 \
 yarn content:sync
 ```
 
-Only the synchronization/build process accesses GitHub. The generated browser
+Environment overrides are for local preview or deliberate validation. Release
+candidates are built from the committed immutable content ref. Only the
+synchronization/build process accesses GitHub; the generated browser
 application contains no content API dependency and does not require GitHub
 availability when it is served.
 
@@ -147,12 +161,13 @@ is the integration and release source, with short-lived working branches.
 
 The Docker image workflow validates every pull request targeting `main` by
 building the static Nginx image without publishing it. A push to `main`
-publishes the image to Docker Hub:
+publishes one candidate image to Docker Hub. A later matching release tag
+promotes that already published candidate digest without rebuilding:
 
 ```text
 pull request to main -> build image only
-push to main -> build image -> publish latest and sha-<commit-sha>
-push v<package-version> tag -> build image -> publish v<package-version>
+push to main -> build once -> publish latest and sha-<commit-sha>
+push v<package-version> tag -> alias sha digest as v<package-version>
 ```
 
 Published image repository:
@@ -174,7 +189,11 @@ are prepared explicitly with `CHANGELOG.md` and a matching Git tag, for example
 
 - `latest` for each successful push to `main`;
 - `sha-<commit-sha>` for the immutable image created from a push to `main`;
-- `v<package-version>` for a matching release Git tag.
+- `v<package-version>` for a matching release Git tag promoted from the same
+  `sha-<commit-sha>` digest.
+
+Each release record should identify the web commit, the immutable content ref
+from `content-source.json`, the workflow run and the promoted image digest.
 
 See [RELEASING.md](./RELEASING.md) for the release procedure, tag validation,
 Docker publication behavior and future GitHub Releases convention.
