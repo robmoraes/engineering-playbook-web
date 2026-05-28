@@ -12,10 +12,10 @@ delivery runtime.
 
 ## Author
 
-- Site: [about.carlosmoraesrodrigues.dev.br](https://about.carlosmoraesrodrigues.dev.br)
+- Site: [about.robmoraes.dev.br](https://about.robmoraes.dev.br)
 - Email: [carlos.moraes.as@gmail.com](mailto:carlos.moraes.as@gmail.com)
 - GitHub: [robmoraes](https://github.com/robmoraes)
-- Docker Hub: [carlosmoraesrodrigues](https://hub.docker.com/u/carlosmoraesrodrigues)
+- Docker Hub: [robmoraes](https://hub.docker.com/u/robmoraes)
 - LinkedIn: [carlosmoraesjr](https://www.linkedin.com/in/carlosmoraesjr/)
 
 ## Architecture
@@ -171,7 +171,7 @@ push v<package-version> tag -> alias sha digest as v<package-version>
 ```
 
 Published image repository:
-[`carlosmoraesrodrigues/engineering-playbook-web`](https://hub.docker.com/r/carlosmoraesrodrigues/engineering-playbook-web)
+[`robmoraes/engineering-playbook-web`](https://hub.docker.com/r/robmoraes/engineering-playbook-web)
 
 Publication requires these GitHub Actions repository secrets:
 
