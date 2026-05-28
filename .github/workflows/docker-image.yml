@@ -14,7 +14,7 @@ permissions:
   contents: read
 
 env:
-  IMAGE_NAME: carlosmoraesrodrigues/engineering-playbook-web
+  IMAGE_NAME: robmoraes/engineering-playbook-web
 
 jobs:
   candidate:
@@ -58,7 +58,7 @@ jobs:
             org.opencontainers.image.description=Static SPA presentation layer for the Engineering Playbook
             org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
             org.opencontainers.image.version=${{ steps.inputs.outputs.version }}
-            dev.carlosmoraesrodrigues.engineering-playbook.content.ref=${{ steps.inputs.outputs.content_ref }}
+            dev.robmoraes.engineering-playbook.content.ref=${{ steps.inputs.outputs.content_ref }}
 
       - name: Build and conditionally publish candidate image
         id: build
