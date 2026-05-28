@@ -72,12 +72,8 @@
           Engineering Playbook by Carlos R Moraes Rodrigues
           <small class="app-version">v{{ version }}</small>
         </span>
-        <a
-          href="https://about.carlosmoraesrodrigues.dev.br"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          about.carlosmoraesrodrigues.dev.br
+        <a href="https://about.robmoraes.dev.br" target="_blank" rel="noopener noreferrer">
+          about.robmoraes.dev.br
         </a>
       </div>
     </q-footer>

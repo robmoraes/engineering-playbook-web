@@ -37,25 +37,17 @@
           <q-icon name="mail_outline" />
           <span><small>Email</small>carlos.moraes.as@gmail.com</span>
         </a>
-        <a
-          href="https://about.carlosmoraesrodrigues.dev.br"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://about.robmoraes.dev.br" target="_blank" rel="noopener noreferrer">
           <q-icon name="language" />
-          <span><small>Site</small>about.carlosmoraesrodrigues.dev.br</span>
+          <span><small>Site</small>about.robmoraes.dev.br</span>
         </a>
         <a href="https://github.com/robmoraes" target="_blank" rel="noopener noreferrer">
           <q-icon name="code" />
           <span><small>GitHub</small>robmoraes</span>
         </a>
-        <a
-          href="https://hub.docker.com/u/carlosmoraesrodrigues"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://hub.docker.com/u/robmoraes" target="_blank" rel="noopener noreferrer">
           <q-icon name="inventory_2" />
-          <span><small>Docker Hub</small>carlosmoraesrodrigues</span>
+          <span><small>Docker Hub</small>robmoraes</span>
         </a>
         <a
           href="https://www.linkedin.com/in/carlosmoraesjr/"
