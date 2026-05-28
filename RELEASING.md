@@ -36,8 +36,8 @@ A pull request never publishes an image. A successful push to `main` builds
 and publishes the current trunk candidate once with:
 
 ```text
-carlosmoraesrodrigues/engineering-playbook-web:latest
-carlosmoraesrodrigues/engineering-playbook-web:sha-<commit-sha>
+robmoraes/engineering-playbook-web:latest
+robmoraes/engineering-playbook-web:sha-<commit-sha>
 ```
 
 `latest` identifies the current integrated state. The `sha-*` tag is immutable
@@ -134,7 +134,7 @@ and publication.
 For example, pushing `v0.1.0` while `package.json` declares `0.1.0` publishes:
 
 ```text
-carlosmoraesrodrigues/engineering-playbook-web:v0.1.0
+robmoraes/engineering-playbook-web:v0.1.0
 ```
 
 If the pushed Git tag and `package.json` version differ, or if its
@@ -169,7 +169,7 @@ Published images include OCI labels generated during the GitHub Actions build:
 - `org.opencontainers.image.description`;
 - `org.opencontainers.image.source`;
 - `org.opencontainers.image.version`.
-- `dev.carlosmoraesrodrigues.engineering-playbook.content.ref`.
+- `dev.robmoraes.engineering-playbook.content.ref`.
 
 The version label is derived from `package.json`, and the content label is
 derived from `content-source.json`, keeping artifact metadata consistent with
