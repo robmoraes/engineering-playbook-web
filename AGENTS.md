@@ -44,6 +44,13 @@ and relevant rendered route.
 
 ## Commit & Pull Request Guidelines
 
+Use trunk-based development with short-lived branches targeting `main`. Branch
+names must follow the playbook `<type>/<description>` convention, for example
+`feat/add-search-modal`, `fix/image-promotion`, `docs/update-playbook-v0.3.2`
+or `chore/update-runner-image`. Reserve `release/v<version>` for maintained or
+stabilized release lines only; do not use `release/*` for a normal release
+metadata or documentation snapshot update.
+
 Use concise Conventional Commit messages, such as
 `feat: add static content search modal` or
 `fix: promote release digest with pinned content source`. Pull requests should
