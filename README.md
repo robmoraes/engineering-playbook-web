@@ -118,7 +118,7 @@ The remote source and ref are configurable for build validation or preview:
 
 ```bash
 CONTENT_REPOSITORY_URL=https://github.com/robmoraes/engineering-playbook \
-CONTENT_REPOSITORY_REF=v0.3.0 \
+CONTENT_REPOSITORY_REF=v0.4.0 \
 yarn content:sync
 ```
 
