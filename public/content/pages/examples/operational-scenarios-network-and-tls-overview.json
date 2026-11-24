@@ -1,4 +1,4 @@
 {
   "sourcePath": "examples/operational-scenarios/network-and-tls/README.md",
-  "contentHtml": "<p>Future investigation examples for DNS failures, certificate renewal or\nhostname errors, reverse proxy routing failures and internal service\nconnectivity.</p>\n<p>Scenarios should validate the actual client-facing path and use synthetic\ndomains or endpoints safe for publication.</p>\n"
+  "contentHtml": "<p>This family covers DNS, certificates, reverse proxy routing and internal\nconnectivity. Use synthetic endpoints and confirm recovery through the\nsame route that first showed the symptom.</p>\n<table>\n<thead>\n<tr>\n<th>Symptom</th>\n<th>Exercise</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>NGINX returns HTTP 502 for a backend request</td>\n<td><a href=\"/books/examples/pages/operational-scenarios-network-and-tls-reverse-proxy-502-overview\">Distinguish a stopped backend from one listening on the wrong port</a></td>\n</tr>\n</tbody></table>\n"
 }

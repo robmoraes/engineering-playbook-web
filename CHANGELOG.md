@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-11-23
+
+### Added
+
+- Add the generated Software Design and Databases documentation snapshots.
+- Add guidance on choosing automated tests by risk, Linux troubleshooting labs,
+  and documentation for the reservation service and its recovery drill.
+
+### Changed
+
+- Update the web application version to `0.7.0`.
+- Pin the build-time documentation source to `engineering-playbook@v0.7.0`.
+
 ## [0.6.0] - 2026-10-11
 
 ### Added
@@ -94,7 +107,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Trunk-based development workflow.
 - Static content generation strategy.
 
-[Unreleased]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.6.0...HEAD
+[Unreleased]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.7.0...HEAD
+[0.7.0]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/robmoraes/engineering-playbook-web/compare/v0.3.2...v0.4.0
